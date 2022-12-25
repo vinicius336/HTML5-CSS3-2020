@@ -12,9 +12,14 @@
 * Colocar imagens do Mapa Mundi em ordem e utilizar CSS para aproximá-las
 4. d004
 * Colocar 3 emojis e os códigos UNICODE de cada categoria em listas não numeradas. Categorias: Carinhas - Mãos - Animais - Esportes - Comidas - Objetos.
-5. d005
-* Elaborar uma página com suas informações sociais.
 
 ### Commit 01 - 25.12.2022 - 00:50
 * Desafios d001, d002, d003 e d004 Feitos!
 * Adicionado .gitignore com a pasta do desafio d005
+
+5. d005
+* Elaborar uma página com suas informações sociais.
+
+### Commit 02 - 25.12.2022 - 01:12
+* Desafio d005 Feito!
+* Retirado pasta d005 do .gitignore
