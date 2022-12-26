@@ -23,3 +23,7 @@
 ### Commit 02 - 25.12.2022 - 01:12
 * Desafio d005 Feito!
 * Retirado pasta d005 do .gitignore
+
+### Commit 03 - 26.12.2022 - 09:28
+* Alteração do nome do repositório
+
