@@ -31,3 +31,7 @@
 * Alteração do código do desafio 004
 * Alteração do nome dos arquivos 001 e 002 de exercícios
 
+### Commit 05 - 26.12.2022 - 15:30
+8. Exercício 003 em aula - Imagens
+9. Exercício 004 em aula - Favicon
+10. Exercício 005 em aula - Emojis
