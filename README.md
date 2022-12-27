@@ -36,6 +36,7 @@
 12. Exercício 007 em aula - Tipos de formatações em HTML4 e HTML5
 13. Exercício 008 em aula - Formatação de Textos
 
-### Commit 06 - 27.12.2022 - 
+### Commit 06 - 27.12.2022 - 14:40
 * Organização do README.md
 14. Exercício 009 em aula - Complemento de Formatação de Textos
+* Desafio d006 - Listar o uso das tags e colocar em umas caixa qual tag é usada.
