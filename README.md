@@ -35,3 +35,8 @@
 8. Exercício 003 em aula - Imagens
 9. Exercício 004 em aula - Favicon
 10. Exercício 005 em aula - Emojis
+
+### Commit 05 - 27.12.2022 - 00:25
+11. Exercício 006 em aula - Hierarquia de Títulos
+12. Exercício 007 em aula - Tipos de formatações em HTML4 e HTML5
+13. Exercício 008 em aula - Formatação de Textos
