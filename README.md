@@ -40,3 +40,6 @@
 * Organização do README.md
 14. Exercício 009 em aula - Complemento de Formatação de Textos
 * Desafio d006 - Listar o uso das tags e colocar em umas caixa qual tag é usada.
+
+### Commit 07 - 27.12.2022 - 14:47
+* Renomeando pasta ex009 para ex008b e arquivo ex009.html para ex008b.html
