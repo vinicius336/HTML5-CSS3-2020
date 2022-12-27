@@ -5,20 +5,15 @@
 ## Módulo 01
 
 ### Commit 01 - 25.12.2022 - 00:50
-1. d001
-* Escrever mensagem na página com parágrafo e quebra de linha
-2. d002
-* Colocar imagem na página e ícone (favicon) na guia da página
-3. d003
-* Colocar imagens do Mapa Mundi em ordem e utilizar CSS para aproximá-las
-4. d004
-* Colocar 3 emojis e os códigos UNICODE de cada categoria em listas não numeradas. Categorias: Carinhas - Mãos - Animais - Esportes - Comidas - Objetos.
+1. Desafio d001 - Escrever mensagem na página com parágrafo e quebra de linha
+2. Desafio d002 - Colocar imagem na página e ícone (favicon) na guia da página
+3. Desafio d003 - Colocar imagens do Mapa Mundi em ordem e utilizar CSS para aproximá-las
+4. Desafio d004 - Colocar 3 emojis e os códigos UNICODE de cada categoria em listas não numeradas. Categorias: Carinhas - Mãos - Animais - Esportes - Comidas - Objetos.
 
 ### Commit 02 - 25.12.2022 - 01:12
 * Desafios d001, d002, d003 e d004 Feitos!
 * Adicionado .gitignore com a pasta do desafio d005
-5. d005
-* Elaborar uma página com suas informações sociais.
+5. Desafio d005 - Elaborar uma página com suas informações sociais.
 
 ### Commit 03 - 26.12.2022 - 09:28
 * Desafio d005 Feito!
@@ -40,3 +35,7 @@
 11. Exercício 006 em aula - Hierarquia de Títulos
 12. Exercício 007 em aula - Tipos de formatações em HTML4 e HTML5
 13. Exercício 008 em aula - Formatação de Textos
+
+### Commit 06 - 27.12.2022 - 
+* Organização do README.md
+14. Exercício 009 em aula - Complemento de Formatação de Textos
