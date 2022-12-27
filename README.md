@@ -43,3 +43,6 @@
 
 ### Commit 07 - 27.12.2022 - 14:47
 * Renomeando pasta ex009 para ex008b e arquivo ex009.html para ex008b.html
+
+### Commit 08 - 27.12.2022 - 15:00
+15. Exercício 009 em aula - Listas ordenadas e não ordenadas
