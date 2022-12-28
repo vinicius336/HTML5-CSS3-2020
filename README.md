@@ -46,3 +46,6 @@
 
 ### Commit 08 - 27.12.2022 - 15:00
 15. Exercício 009 em aula - Listas ordenadas e não ordenadas
+
+### Commit 09 - 28.12.2022 - 01:20
+16. Exercício 009 em aula - Listas ordenadas e não ordenadas (Lista de jogos extensa)

@@ -5,11 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Listas</title>
-        <meta http-equiv="refresh" content="1">
+        <style>
+            .plataforma{
+                list-style: square;
+                font-size: 24pt;
+                font-weight: bold;
+            }
+            .quadrado{list-style: square;}
+            .disco{list-style: disc;}
+            .conquista{font-size: 16pt;}
+            .lista{font-family: monospace;}
+            .circle{list-style: circle;}
+        </style>
     </head>
     <body>
         <h1>Trabalhando com listas</h1>
         <h2>Listas Orfenadas</h2>
+        <h3>Lista de afazeres</h3>
         <ol type="I"> <!--1, A, a, I, i-->
             <li>Acordar</li>
             <li>Tomar café</li>
@@ -23,7 +35,7 @@
             <li>Estudar</li>
             <li>Dormir</li>
         </ol>
-        <h2>Lista de compras</h2>
+        <h3>Lista de compras</h3>
         <ul type="circle"> <!--disc, circle, square-->
             <li>Queijo</li>
             <li>Goma</li>
@@ -32,6 +44,440 @@
             <li>Pimentão</li>
             <li>Tomate</li>
             <li>Alho</li>
+        </ul>
+        <h2>Listas Mistas</h2>
+        <h3>Minhas linguagens favoritas</h3>
+        <ol>
+            <li>Antigas</li>
+            <ol>
+                <li>Pascal</li>
+                <li>C</li>
+            </ol>
+            <li>Novas</li>
+            <ol start="3">
+                <li>C/C#</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ol>
+            <li>Front-End</li>
+            <ol start="6">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JS</li>
+            </ol>
+        </ol>
+        <h2>Lista de Definições</h2>
+        <dl>HTML</dl>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dl>CSS</dl>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dl>JavaScript</dl>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+        <hr>
+<!------------------------------------------------------------------------------->   
+        <h3>MEUS JOGOS</h3>
+        <ul class="quadrado">
+            <li class="plataforma"><Strong>Steam</Strong></li>
+            <ul class="disco">
+                <li class="conquista"><strong>Platinados</strong></li>
+                <ol class="lista">
+                    <li>Styx</li>
+                    <li>Wolfenstein: The New Order</li>
+                </ol>
+                <li class="conquista"><strong>Instalados</strong></li>
+                <ol class="lista" start="3">
+                    <li>DOOM</li>
+                    <li>Mafia</li>
+                    <li>Mad Max</li>
+                    <li>Wolfenstein: Youngblood</li>
+                    <li>Wolfenstein: The Old Blood</li>
+                    <li>Wolfenstein II: The New Colossus</li>
+                </ol>
+                <li class="conquista"><strong>Zerados</strong></li>
+                <ol class="lista" start="9">
+                    <li>Planetary Annihilation: TITANS</li>
+                    <li>Baldurs Gate Enhanced Edition</li>
+                    <li>The Elder's Scrool V: Skyrim</li>
+                    <li>Lara Croft Temple of Osiris</li>
+                    <li>Planetary Annihilation</li>
+                    <li>The Binding of ISAAC</li>                    
+                    <li>Batman: Arkham City</li>
+                    <li>Brutal Legend</li>
+                    <li>Left 4 Dead 2</li>
+                    <li>Torchlight II</li>
+                    <li>Tomb Raider</li>
+                    <li>Guacamelee!</li>
+                    <li>Borderlands</li>
+                    <li>Metro 2033</li>
+                    <li>Broforce</li>
+                    <li>Portal 2</li>
+                    <li>Bastion</li>
+                    <li>UNepic</li>
+                </ol>
+                <li class="conquista"><strong>Restante</strong></li>
+                <ol class="lista" start="28">
+                    <li>Pid</li>
+                    <li>Risk</li>
+                    <li>GRID 2</li>
+                    <li>Magika</li>
+                    <li>Kenshi</li>
+                    <li>Deiland</li>
+                    <li>Hellion</li>
+                    <li>Trine 2</li>
+                    <li>Stadium</li>
+                    <li>Besiege</li>
+                    <li>NinjaGo</li>                    
+                    <li>Gauntlet</li>
+                    <li>Notmycar</li>
+                    <li>Receiver</li>
+                    <li>Polyball</li>
+                    <li>Terraria</li>
+                    <li>Brothers</li>
+                    <li>The Deed</li>
+                    <li>Among us</li>
+                    <li>Transpose</li>
+                    <li>Sanctum 2</li>
+                    <li>Runescape</li>
+                    <li>Wanderlust</li>
+                    <li>Tabletopia</li>
+                    <li>Dirt Rally</li>
+                    <li>AwsomeNauts</li>
+                    <li>Idle Slayer</li>
+                    <li>Expendabros</li>
+                    <li>Martian Law</li>
+                    <li>Interkosmos</li>
+                    <li>Project Argo</li>              
+                    <li>Project Cars</li>
+                    <li>BeamNG.drive</li>
+                    <li>Simple Story</li>
+                    <li>Sega Genesis</li>
+                    <li>Goat of Duty</li>
+                    <li>We were here</li>
+                    <li>Path of Exile</li>
+                    <li>Ticket to Ride</li>
+                    <li>Worms Reloaded</li>
+                    <li>Wolfenstein 3D</li>
+                    <li>10 second ninja</li>
+                    <li>Divide by Sheep</li>
+                    <li>Sniper Elite V2</li>
+                    <li>Castle Crashers</li>
+                    <li>Aegis Defenders</li>
+                    <li>Minions masters</li>
+                    <li>Regions of Ruin</li>
+                    <li>Payday the heist</li>
+                    <li>Total War Shogun</li>
+                    <li>Shadow of Mordor</li>
+                    <li>Crazy Machines 3</li>
+                    <li>Orcs Must Die! 2</li>
+                    <li>Age of Wonder III</li>
+                    <li>Age of Empires II</li>
+                    <li>Mark of the Ninja</li>
+                    <li>Metal Slug Defense</li>
+                    <li>Cell to Singularity</li>
+                    <li>Between two castles</li>
+                    <li>Heavymetal Machines</li>
+                    <li>Wolfenstein Enemy Territory</li>
+                    <li>Return to Castle Wolfenstein</li>
+                    <li>Wolfenstein Spear of Destiny</li>
+                    <li>Deponia The Complete Journey</li>
+                    <li>Counter Strike: Global Offensive</li>
+                    <li>The Elder Scrolls III: Morrowind</li>
+                    <li>The might quest for the epic loot</li>
+                    <li>Red Orchestra 2: Heroes of Stalingrad</li>
+                    <li>Borderlands Game of the year enhanced</li>
+                </ol>
+            </ul>
+            <li class="plataforma"><strong>Epic</strong></li>
+            <ol>
+                <li class="conquista"><strong>Instalados</strong></li>
+                <ol class="lista">
+                    <li>ToeJam & Earl: Back in the groove!</li>
+                    <li>Saints Row IV: Re-Elected</li>
+                    <li>Slain back from hell</li>
+                    <li>Death Stranging</li>
+                    <li>Shadow Tactics</li>
+                    <li>Rising Hell</li>
+                    <li>Gloomhaven</li>
+                    <li>Darkwood</li>
+                    <li>Filament</li>
+                    <li>F.I.S.T.</li>
+                </ol>
+                <li class="conquista"><strong>Zerados</strong></li>
+                <ol class="lista" start="11">
+                    <li>Hob</li>
+                    <li>HUE</li>
+                    <li>Darq</li>
+                    <li>GTA V</li>
+                    <li>Figment</li>
+                    <li>Control</li>
+                    <li>MudRunner</li>
+                    <li>Q.U.B.E.2</li>
+                    <li>Loop Hero</li>
+                    <li>Borderlands 2</li>
+                    <li>Borderlands 3</li>
+                    <li>Horazon Chase</li>
+                    <li>Among the Sleep</li>
+                    <li>Metro 2033 Redux</li>
+                    <li>Rise of Tomb Raider</li>
+                    <li>Batman&trade;: Arkham City</li>
+                    <li>Saints Row the Third</li>
+                    <li>Creature in the well</li>
+                    <li>Batman&trade;: Arkham Asylum</li>
+                    <li>Metro Last Light Redux</li>
+                    <li>Shadow of the Tomb Raider</li>
+                    <li>Borderlands the pre-sequel</li>
+                    <li>Wolfenstein: The New Order</li>
+                    <li>Alan Wake's American Nightmare</li>
+                    <li>Never Alone (Kisima ingitchuna)</li>
+                    <li>Tomb Raider Game of the year edition</li>
+                    <li>Tiny Tina's Assalt on Dragon Keep: A Wonderlands One-shot Adventures</li>
+                </ol>
+                    <li class="conquista"><strong>Restante</strong></li>
+                <ol class="lista" start="38">
+                    <li>Fallout 2: A Post Nuclear Role Playing Game</li>
+                    <li>Stubbs the zombie in rebel without a pulse</li>
+                    <li>Fallout: A Post Nuclear Role Playing Game</li>
+                    <li>Ken Follett's the pillars of the earth</li>
+                    <li>Fallout Tactics: Brotherhood of Steel</li>
+                    <li>Idle champions of the Forgoten Realms</li>
+                    <li>Yooka-Laylee and the Impossible Lair</li>
+                    <li>The Vanishing of Ethan Carter Redux</li>
+                    <li>Bridge constructor: the Walkin Dead</li>
+                    <li>Hundred days - Winemaking simulator</li>
+                    <li>Bioshock Infinity Complete Edition</li>
+                    <li>Superbrothers: Sword & Sworcery EP</li>
+                    <li>Sherlock Holmes Crime & Punishment</li>
+                    <li>Totally Reliable Delivery Service</li>
+                    <li>Lifeless Planet: Premier Edition</li>
+                    <li>LEGO&reg; Batman&trade; 2 DC Super Heroes</li>
+                    <li>LEGO&reg; Batman&trade; 3 Beyond Gothan</li>
+                    <li>Brothers - A Tale of Two Sons</li>
+                    <li>The Vanishing of Ethan Carter</li>
+                    <li>Deponia the complete edition</li>
+                    <li>Warhammer 40,000: Mechanicus</li>
+                    <li>Sid Meier's Civilizations IV</li>
+                    <li>theHunter: Call of the Wild</li>
+                    <li>Fallout 3: Game of the year</li>
+                    <li>Alba - A wildfire adventure</li>
+                    <li>Amnesia: A Machine for Pigs</li>
+                    <li>Car Mechanic Simulator 2018</li>
+                    <li>Primordials: Battle of Gods</li>
+                    <li>LEGO&reg; Batman&trade; The videogame</li>
+                    <li>Wonder Boy The Dragon Trap</li>
+                    <li>Galactic Civilizations III</li>
+                    <li>Nioh: The complete Edition</li>
+                    <li>Stranger Things: The game</li>
+                    <li>Evoland Legendary Edition</li>
+                    <li>Amnesia: The Dark Descent</li>
+                    <li>Hood outlaws and legends</li>
+                    <li>Jurassic World Evolution</li>
+                    <li>3 out of 10: Seasson two</li>
+                    <li>A plague tale: Innocence</li>
+                    <li>Redout: Enhanced Edition</li>
+                    <li>Offworld Trading Company</li>
+                    <li>Kid A Mnesia exhibition</li>
+                    <li>Cook, Serve, Delicious!</li>
+                    <li>Oddworld: New 'n' Tasty</li>
+                    <li>The Drone Racing League</li>
+                    <li>Rising Storm 2: Vietnam</li>
+                    <li>Black Widow: Recharged</li>
+                    <li>Guild of Dungeoneering</li>
+                    <li>Jotun Valhalla Edition</li>
+                    <li>Remnant from the ashes</li>
+                    <li>Tyranny - Gold Edition</li>
+                    <li>Star Wars&trade; Battlefront</li>
+                    <li>Yoku's Island Express</li>
+                    <li>Tales of the Neon Sea</li>
+                    <li>Them's Fightin' Herds</li>
+                    <li>Submerg Hidden Depths</li>
+                    <li>Europa Universalis IV</li>
+                    <li>Bioshock 2 Remastered</li>
+                    <li>ARK: Survival Evolved</li>
+                    <li>Shadowrun: Dragonfall</li>
+                    <li>Lawn Mowing Simulator</li>
+                    <li>RollerCoaster Tycoon&reg;</li>
+                    <li>Hell os other demons</li>
+                    <li>Killing Floor 2 beta</li>
+                    <li>Geneforce 1: Mutagen</li>
+                    <li>Tormentro X Punisher</li>
+                    <li>Total war: Warhammer</li>
+                    <li>The Spectrum Retreat</li>
+                    <li>Pathfinder Kingmaker</li>
+                    <li>Spirit of the North</li>
+                    <li>Star Wars Squadrons</li>
+                    <li>Bioshock Remastered</li>
+                    <li>AER Memories of Old</li>
+                    <li>The Stanley Parable</li>
+                    <li>Wildcat Gun Machine</li>
+                    <li>Wargame: Red Dragon</li>
+                    <li>PUBG: Battlegrounds</li>
+                    <li>Pillars of Eternity</li>
+                    <li>Shadowrun Hong Kong</li>
+                    <li>PC Build Simulator</li>
+                    <li>Mages of Mystralia</li>
+                    <li>Centiped Recharged</li>
+                    <li>Tewrraforming Mars</li>
+                    <li>Train Sim World 2</li>
+                    <li>while True: Learn</li>
+                    <li>A game of Thrones</li>
+                    <li>Enter the Gungeon</li>
+                    <li>Kingdom new lands</li>
+                    <li>Shadowrun returns</li>
+                    <li>Salt an Sanctuary</li>
+                    <li>Layers of Fear 2</li>
+                    <li>In to the Breach</li>
+                    <li>Just Die Already</li>
+                    <li>Alien: Isolation</li>
+                    <li>Amnesia: Rebirth</li>
+                    <li>Close to the sum</li>
+                    <li>Dead by daylight</li>
+                    <li>Daemon x Machina</li>
+                    <li>Ghostwire: Tokyo</li>
+                    <li>Costume quest 2</li>
+                    <li>Elite Dangerous</li>                    
+                    <li>Total war: Troy</li>
+                    <li>The Lion's Song</li>
+                    <li>Darkest Dungeon</li>
+                    <li>Prison Archtect</li>
+                    <li>Killing Floor 2</li>
+                    <li>The first tree</li>
+                    <li>Genshin Impact</li>
+                    <li>Surviving Mars</li>
+                    <li>The Escapist 2</li>
+                    <li>Ticket to Ride</li>
+                    <li>Absolute Drift</li>
+                    <li>Cities Skyline</li>
+                    <li>Gods Will Fall</li>
+                    <li>Nuclear Throne</li>
+                    <li>Hand of Fate 2</li>
+                    <li>Humankind Demo</li>
+                    <li>Insurmountable</li>
+                    <li>Knockout City</li>
+                    <li>Mothergunship</li>
+                    <li>Rocket League</li>
+                    <li>Rogue Company</li>
+                    <li>Severed Steel</li>
+                    <li>In sound mind</li>
+                    <li>Stranded Deep</li>
+                    <li>Torchlight II</li>
+                    <li>Void Bastards</li>
+                    <li>The Long Dark</li>
+                    <li>City of Brass</li>
+                    <li>Ancient enemy</li>
+                    <li>Path of Exile</li>
+                    <li>Overcooked! 2</li>
+                    <li>Just Cause 4</li>
+                    <li>For the King</li>
+                    <li>Fort Triumph</li>
+                    <li>The Escapist</li>
+                    <li>Yooka-Laylee</li>
+                    <li>Watch Dogs 2</li>
+                    <li>Death Coming</li>
+                    <li>Rogue Legacy</li>
+                    <li>RPG in a box</li>
+                    <li>Rebel Galaxy</li>
+                    <li>Ring of pain</li>
+                    <li>Barony beta</li>
+                    <li>Aven Colony</li>
+                    <li>Bloons TD 6</li>
+                    <li>Cave Story+</li>
+                    <li>Demons tilt</li>
+                    <li>Crying suns</li>
+                    <li>Sonic Mania</li>
+                    <li>Space Punks</li>
+                    <li>Speed Brawl</li>
+                    <li>World War Z</li>
+                    <li>Sunless Sea</li>
+                    <li>The Captain</li>
+                    <li>Overcooked</li>
+                    <li>Automachef</li>
+                    <li>Carcassone</li>
+                    <li>Trackmania</li>
+                    <li>Watch Dogs</li>
+                    <li>Spellbreak</li>
+                    <li>Crashlands</li>
+                    <li>Cris tales</li>
+                    <li>Dark Deity</li>
+                    <li>Moving Out</li>
+                    <li>Saturnalia</li>
+                    <li>Scavengers</li>
+                    <li>Gone Home</li>
+                    <li>Fall Guys</li>
+                    <li>Frostpunk</li>
+                    <li>Obduction</li>
+                    <li>Bad North</li>
+                    <li>Windbound</li>
+                    <li>Supraland</li>
+                    <li>Tropico 5</li>
+                    <li>Sheltered</li>
+                    <li>Riverbond</li>
+                    <li>Halcyon 6</li>
+                    <li>Fortnite</li>
+                    <li>Paradigm</li>
+                    <li>Maneater</li>
+                    <li>Unrailed</li>
+                    <li>Warframe</li>
+                    <li>Shemue 3</li>
+                    <li>The fall</li>
+                    <li>Among Us</li>
+                    <li>NBA 2K21</li>
+                    <li>Ironcast</li>
+                    <li>Godfall</li>
+                    <li>Dandara</li>
+                    <li>Tharsis</li>
+                    <li>Pathway</li>
+                    <li>Relicta</li>
+                    <li>Iratus</li>
+                    <li>Inside</li>
+                    <li>Ruiner</li>
+                    <li>Runbow</li>
+                    <li>Vampyr</li>
+                    <li>Tacoma</li>
+                    <li>XCOM 2</li>
+                    <li>Rage 2</li>
+                    <li>Minit</li>
+                    <li>Sable</li>
+                    <li>Pine</li>
+                    <li>Prey</li>
+                </ol>
+            </ol>
+            <li class="plataforma"><strong>Em CD</strong></li>
+            <ul class="disco">
+                <li class="conquista"><strong>Zerados</strong></li>
+                <ol class="lista">
+                    <li>Crysis 2</li>
+                    <li>Diablo III</li>
+                    <li>StarCraft 2</li>
+                    <li>Dead Space 2</li>
+                    <li>Batman: Arkham City</li>
+                    <li>Need For Speed - Hot Porsuit</li>
+                </ol>
+                <li class="conquista"><strong>Restante</strong></li>
+                <ul class="circle"><li>Prince of Persia - Trilogia</li>
+                    <ol class="lista" start="7">
+                        <li>The Sands of Time</li>
+                        <li>The Tow Thrones</li>
+                        <li>Warrior Within</li>
+                    </ol>
+                </ul>
+            </ul>
+            <li class="plataforma"><strong>Favoritos</strong></li>
+            <ol class="lista">
+                <li>Warcraft II: Tides of Darkness</li>
+                <li>Wolfenstein: The New Order</li>
+                <li>Alex Kidd in Miracle World</li>
+                <li>Batman: Arkham Asylum</li>
+                <li>Saints Row the third</li>
+                <li>Batman: Arkham City</li>
+                <li>Super Mario World</li>
+                <li>GTA San Andreas</li>
+                <li>Wolfenstein 3D</li>
+                <li>Clash of Clãs</li>
+                <li>Mad Max</li>
+                <li>Tetris</li>
+                <li>GTA V</li>
+                <li>DOOM</li>
+            </ol>
         </ul>
     </body>
 </html>
