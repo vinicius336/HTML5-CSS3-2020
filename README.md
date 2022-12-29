@@ -53,3 +53,6 @@
 ### Commit 10 - 29.12.2022 - 14:17
 17. Exercício 010 em aula - Links internos, links externos e links para baixar arquivos
 * Iniciando arquivo do desafio 007
+
+### Commit 11 - 29.12.2022 - 14:45
+* Adequação do desafio 005
