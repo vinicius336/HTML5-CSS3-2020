@@ -56,3 +56,6 @@
 
 ### Commit 11 - 29.12.2022 - 14:45
 * Adequação do desafio 005
+
+### Commit 12 - 29.12.2022 - 15:10
+18. Exercício 011 em aula - Imagens dinânicas
