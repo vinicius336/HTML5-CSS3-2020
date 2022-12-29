@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com Links</title>
+    </head>
+    <body>
+        <h2>Usando links internos</h2>
+        <p><a href="ex010.html" target="_parent" rel="prev">HOME</a></p>
+        <!--
+            target="_blank" - Abre uma nova guia/aba no navegador
+            target="_parent" - Abre na mesma guia/aba do navegador
+            target="_self" - Abre na mesma guia/aba do navegador (na mesma janela)
+            target="_top" - Abre na mesma guia/aba do navegador
+            Sem target - Abre na mesma guia/aba do navegador
+            ------------------------------------------------------
+            rel="next" - Próxima página (Semântica)
+            rel="prev" - Página anterior (Semântica)
+            rel="external" - Referência para página externa (Semântica)
+            rel="unfollow" - Referência para o mecanismo de busca não ter aval
+
+        -->
+        <p><a href="pag02.html" target="_parent" rel="next">PAG02</a></p>
+        <p><a href="noticias/noticias.html" target="_parent" rel="next">Notícias</a></p>
+        <hr>
+        <h2>Usando links externos</h2>
+        <p>Acesse o meu <a href="https://github.com/vinicius336" target="_blank" rel="external">GitHub</a></p>
+        <hr>
+        <h2>Links para Download</h2>
+        <ul>
+            <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+            <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+        </ul>
+        <!--
+            - parâmetro download indica o nome do arquivo para download (Semântica)
+            - parâmetro type indica a aplicação que será baixado o arquivo - a lista de todos os tipos pode se encontrado no site iana.org/assignments/media-types/media-tipes.xhtml
+        -->
+    </body>
+</html>

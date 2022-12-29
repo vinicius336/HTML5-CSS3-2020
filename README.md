@@ -49,3 +49,7 @@
 
 ### Commit 09 - 28.12.2022 - 01:20
 16. Exercício 009 em aula - Listas ordenadas e não ordenadas (Lista de jogos extensa)
+
+### Commit 10 - 29.12.2022 - 14:17
+17. Exercício 010 em aula - Links internos, links externos e links para baixar arquivos
+* Iniciando arquivo do desafio 007
