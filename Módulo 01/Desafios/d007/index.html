@@ -6,13 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Imagem Flexível</title>
         <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-        <meta http-equiv="refresh" content="20">
     </head>
     <body>
-        <h1>Imagens Flexível</h1>
+        <h1><a href="index.html">Imagens Flexível</a></h1>
         <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</p>
-        <img src="imagens/paisagem-p.png" alt="">
-        <img src="imagens/paisagem-m.png" alt="">
-        <img src="imagens/paisagem-g.png" alt="">
+        <picture>
+            <source media="(max-width: 793px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1230px)" srcset="imagens/paisagem-m.png" type="image/png">
+            
+            <img src="imagens/paisagem-g.png" alt="Paisagem tamanho grande">
+        </picture>
     </body>
 </html>

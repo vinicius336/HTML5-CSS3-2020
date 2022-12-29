@@ -59,3 +59,6 @@
 
 ### Commit 12 - 29.12.2022 - 15:10
 18. Exercício 011 em aula - Imagens dinânicas
+
+### Commit 13 - 29.12.2022 - 15:20
+* Desafio d007 - Imagens dinâmicas
