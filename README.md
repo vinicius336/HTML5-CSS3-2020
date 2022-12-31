@@ -75,3 +75,6 @@
 
 ### Commit 17 - 31.12.2022 - 17:25
 * Exercício 012 - Incorporação de vídeos do Youtube (Clicar em copartilhar >> incorporar >> colar no código da página)
+
+### Commit 18 - 31.12.2022 - 18:05
+22. Desafio d008 feito
