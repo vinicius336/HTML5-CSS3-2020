@@ -72,3 +72,6 @@
 ### Commit 16 - 31.12.2022 - 16:42
 * Exercício 011 - Organização de comentários
 21. Exercídio 012 em aula - Reprodução de vídeos (Feito em vários formatos, com menu simples para exibir outras resoluções em páginas separadas)
+
+### Commit 17 - 31.12.2022 - 17:25
+* Exercício 012 - Incorporação de vídeos do Youtube (Clicar em copartilhar >> incorporar >> colar no código da página)
