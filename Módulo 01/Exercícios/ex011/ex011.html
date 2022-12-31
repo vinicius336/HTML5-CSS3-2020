@@ -7,15 +7,60 @@
         <title>Imagens Flexíveis</title>
     </head>
     <body>
-        <h2><a href="ex011.html" target="_parent" rel="prev">Imagens Flexíveis</a></h2>
+<!--_______________________________IMAGENS__________________________________-->
+        <h1><a href="ex011.html" target="_parent" rel="prev">Imagens Flexíveis</a></h1>
         <ol>
             <li>Criar, ou obter, imagens com tamanhos diferentes (pequena, média e grande).</li>
             <li>Tente abrir esse site em vários dispositivos, ou simplesmente aumete e diminua a janela do seu navegador.</li>
         </ol>
-        <picture>
+        <picture> <!-- tag semântica para organizar imagens na página -->
             <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+            <!--
+                srcset  >>  Caminho da imagem carregada
+                media   >>  Informa o tamanho máximo (max-width), ou mínimo (min-width) que tela/janela exibirá o arquivo informado em srcset.
+                type    >>  Informa o tipo de imagem que será carregada
+            -->
             <source media="(max-width: 1210px)" srcset="imagens/paisagem-m.png" type="image/png">
             <img  src="imagens/paisagem-g.png" alt="Imagem Flexível">
+            <!--
+                Em último da lista é colocado a imagem que poderá ser carregada no maior tipo de tela/janela, pois será o tamanho máximo informado independente do tamanho da tela/janela.
+            -->
         </picture>
+<!--_______________________________ÁUDIOS__________________________________-->
+        <h1>Reproduzindo Áudio</h1>
+        <h2>Aprendendo a inserir áudio na página</h2>
+        <h3>Guanacast #33</h3>
+        <audio preload="metadata" controls> <!-- autoplay controls loop -->
+            <!--
+                preload >>  Carregamento do arquivo baseado no valor definido
+                    >>  auto        >>  Carrega todo o áudio. (O site só será considerado completo quando terminar de baixar tudo, inclusive o áudio que pode ser muito grande para a banda do usuário (Obs: valores acima de 5MB já são considerados pesados))
+                    >>  metadata    >>  Carrega apenas informações do arquivo como tamanho, tempo de áudio, data do arquivo, etc
+                    >>  none        >>  Não carrega nada do arquivo
+                autoplay>>  Toca automaticamente (caso o navegador seja compatível)
+                controls>>  Mostra o controlador de áudio
+                loop    >>  Toca o áudio repetidamente
+            -->
+            <source src="midia/guanacast-33.ogg" type="audio/ogg">
+            <!--
+                src     >>  Local do arquivo
+                type    >>  Tipo do arquivo a ser carregado
+            -->
+            <source src="midia/guanacast-33.wav" type="audio/wav">
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+            <!--
+                Caso tenha todos os arquivos (neste caso, ogg, wav e mp3 (para esse teste só usei o mp3)), será tocado o primeiro arquivo listado que seja disponível com o navegador do usuário.
+            -->
+        </audio>
+        <p>Caso o áudio não seja carregado, baixe o arquivo <a href="midia/guanacast-33.mp3">AQUI</a></p>
+        <h3>Happy-Mistake</h3>
+        <audio preload="metadata" controls> <!-- autoplay controls loop -->
+            <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+            <source src="midia/happy-mistake.ogg" type="audio/ogg">
+            <source src="midia/happy-mistake.wav" type="audio/wav">
+        </audio>
+        <p>Caso o áudio não seja carregado, baixe o arquivo <a href="midia/happy-mistake.mp3">AQUI</a></p>
+<!--_______________________________VÍDEOS__________________________________-->
+        <h1>Carregando Vídeos</h1>
+        <p></p>
     </body>
 </html>

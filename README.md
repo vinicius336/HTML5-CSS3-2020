@@ -62,3 +62,9 @@
 
 ### Commit 13 - 29.12.2022 - 15:20
 * Desafio d007 - Imagens dinâmicas
+
+### Commit 14 - 31.12.2022 - 02:28
+19. Exercício 011 em aula - Reproduzindo áudio (incompleto)
+
+### Commit 15 - 31.12.2022 - 13:55
+20. Exercício 011 em aula - Reproduzindo áudio (completo)
