@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vídeos com HTML5</title>
+    </head>
+    <body>
+        <h1><a href="ex012.html">Reproduzindo Vídeos com HTML5</a></h1>
+        <a href="ex012.html">[ 4k ]</a>
+        <a href="1080p.html">[ 1080p ]</a>
+        <a href="720p.html">[ 720p ]</a>
+        <a href="576p.html">[ 576p ]</a>
+        <a href="480p.html">[ 480p ]</a>
+        <p>Este vídeo está em resolução 1080p com largura de 500 pixel</p>
+        <video width="500" height="700" poster="imagens/Cafeteira.png" controls loop>
+            <!--
+                width       >>  Exibe o vídeo na largura definida
+                height      >>  Exibe o vídeo na altura definida
+                controls    >>  Exibe controles do vídeo
+                loop        >>  Toca o vídeo repetidamente
+            -->
+            <source src="videos/Cafe-1080p.mp4" type="video/mp4">
+            <source src="videos/cafe-1080p.webm" type="video/webm">
+            <source src="videos/Cafe-1080p.mkv">
+            <!--
+                source  >>  tag semântica para exibição de vídeos
+                src     >>  tag que indica o caminho do vídeo
+                type    >>  tag semântica para informar o formato do vídeo de acordo com o IANA.ORG
+                OBs >>  O formato mkv é compatível com alguns navegadores, mas não encontrei o type dele no IANA.ORG
+            -->
+            <p>Seu navegador não é compatível com os formatos mp4, webm e mkv!</p>
+            <!--
+                Essa mensagem deve funcionar caso nenhum dos vídeos informados seja compatível com o navegador do usuário
+            -->
+        </video>
+    </body>
+</html>

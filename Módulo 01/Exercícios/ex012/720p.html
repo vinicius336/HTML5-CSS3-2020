@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vídeos com HTML5</title>
+    </head>
+    <body>
+        <h1><a href="ex012.html">Reproduzindo Vídeos com HTML5</a></h1>
+        <a href="ex012.html">[ 4k ]</a>
+        <a href="1080p.html">[ 1080p ]</a>
+        <a href="720p.html">[ 720p ]</a>
+        <a href="576p.html">[ 576p ]</a>
+        <a href="480p.html">[ 480p ]</a>
+        <p>Este vídeo está em resolução 720p com largura de 500 pixel</p>
+        <video width="500" height="700" poster="imagens/Cafeteira.png" controls loop> <!-- tag semântica com os parâmetros de exibição do vídeo -->
+            <source src="videos/cafe-720p.3gp" type="video/3gpp"> <!-- Não aparece no Chrome (O IANA.ORG informa desta maneira) -->
+            <source src="videos/cafe-720p.3gp" type="video/3gp"> <!-- Não aparece no Chrome (Testei só com a extensão do arquivo mas não funcionou) -->
+            <source src="videos/cafe-720p.3gp"> <!-- Não aparece no Chrome (Testei sem o type mas não funcionou) -->
+            <source src="videos/Cafe-720p.mp4" type="video/mp4"> <!-- Compatível com o Chrome -->
+            <source src="videos/cafe-720p.webm" type="video/webm"> <!-- Compatível com o Chrome -->
+            <source src="videos/Cafe-720p.mkv"> <!-- Compatível com o Chrome -->
+            <p>Seu navegador não é compatível com os formatos mp4, webm e mkv!</p>
+            <!--
+                Essa mensagem deve funcionar caso nenhum dos vídeos informados seja compatível com o navegador do usuário
+            -->
+        </video>
+    </body>
+</html>

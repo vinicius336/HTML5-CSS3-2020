@@ -68,3 +68,7 @@
 
 ### Commit 15 - 31.12.2022 - 13:55
 20. Exercício 011 em aula - Reproduzindo áudio (completo)
+
+### Commit 16 - 31.12.2022 - 16:42
+* Exercício 011 - Organização de comentários
+21. Exercídio 012 em aula - Reprodução de vídeos (Feito em vários formatos, com menu simples para exibir outras resoluções em páginas separadas)
