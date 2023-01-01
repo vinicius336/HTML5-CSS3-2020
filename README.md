@@ -81,3 +81,6 @@
 
 ### Commit 19 - 31.12.2022 - 21:30
 23. Desafio d009 feito (falta colocar centralizado)
+
+### Commit 20 - 01.01.2023 - 03:10
+* Desafio d009 centralizado
