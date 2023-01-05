@@ -93,3 +93,6 @@
 
 ### Commit 23 - 05.01.2023 - 00:27
 * Teste de Conhecimentos do Capítulo 02 feito
+
+### Commit 24 - 05.01.2023 - 16:05
+* Teste de Conhecimentos do Capítulo 03 feito

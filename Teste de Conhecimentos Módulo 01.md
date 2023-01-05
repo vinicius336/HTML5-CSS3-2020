@@ -63,3 +63,37 @@
 
 10. Todo bom serviço de hospedagem deve fornecer recursos e serviços valiosos para seus clientes. Entre os itens a seguir, qual é o único que NÃO É oferecido por uma empresa de hospedagem?
 * Manutenção periódica no PC do cliente
+
+### Capítulo 03
+
+1. Qual das frases a seguir é a única tecnicamente CORRETA de se falar?
+* "Eu programo em linguagem JavaScript"
+
+2. A sigla HTML significa:
+* HyperText Markup Language
+
+3. A sigla CSS significa:
+* Cascading Style Sheets
+
+4. Correlacione a coluna da esquerda com a da direita, de acordo com o foco de cada uma das tecnologias:
+* (1) HTML  -   (3) Interatividade
+* (2) CSS   -   (1) Conteúdo
+* (3) JS    -   (2) Estilo
+
+5. Qual tag abaixo não tem fechamento?
+* <meta>
+
+6. Na tag <a>, o href é um(a):
+* Parâmetro
+
+7. Todas as configurações visuais dos elementos HTML são realizadas pela linguagem CSS. Agrupamos todas as declarações CSS de um mesmo elemento dentro de um(a):
+* Seletor
+
+8. Para mudar a cor de um txto em CSS, configuramos qual propriedade?
+* text-color
+
+9. Para indicar que um determinado documento HTML está escrito na versão mais recente da linguagem, devemos adcionar a seguinte instrução:
+* <!DOCTYPE html>
+
+10. Qual é a tag de um documento HTML adicionada pra manter a compatibilidade com os caracteres acentuados, muito comuns na língua Portuguesa?
+* <meta charset="UTF-8>
