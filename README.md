@@ -111,3 +111,7 @@
 
 ### Commit 29 - 05.01.2023 - 17:45
 * Teste de conhecimento do capítulo 04
+
+### Commit 30 - 05.01.2023 - 18:20
+* Teste de conhecimento do capítulo 05
+* Relembrando código do símbolo seta para a direita no ex002.html
