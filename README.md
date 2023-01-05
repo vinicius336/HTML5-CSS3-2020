@@ -84,3 +84,6 @@
 
 ### Commit 20 - 01.01.2023 - 03:10
 * Desafio d009 centralizado
+
+### Commit 21 - 04.01.2023 - 23:35
+* Teste de Conhecimentos do Capítulo 01 feito
