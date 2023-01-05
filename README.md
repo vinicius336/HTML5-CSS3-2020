@@ -87,3 +87,6 @@
 
 ### Commit 21 - 04.01.2023 - 23:35
 * Teste de Conhecimentos do Capítulo 01 feito
+
+### Commit 22 - 04.01.2023 - 23:50
+* Negrito em algumas palavras que deveriam ser sublinhada (Markdown não tem sublinhado)
