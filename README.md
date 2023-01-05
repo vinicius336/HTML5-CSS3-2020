@@ -90,3 +90,6 @@
 
 ### Commit 22 - 04.01.2023 - 23:50
 * Negrito em algumas palavras que deveriam ser sublinhada (Markdown não tem sublinhado)
+
+### Commit 23 - 05.01.2023 - 00:27
+* Teste de Conhecimentos do Capítulo 02 feito

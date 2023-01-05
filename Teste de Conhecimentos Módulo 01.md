@@ -18,19 +18,48 @@
 5. O primeiro protocolo usado na transmissão de dados entro os controladores tinha o nome de:
 * NCP (Network Control Protocol)
 
-6. No dia 1 de Janeiro do ano de **1983** o TCP\IP (Tranfer Control Protocol \ Internet Protocol) passou a ser o único protocolo aceito pela Internet. Esse dia ficou conhecido como **Flag Day**.
-* 1983 \ Flag Day
+6. No dia 1 de Janeiro do ano de **1983** o TCP/IP (Tranfer Control Protocol / Internet Protocol) passou a ser o único protocolo aceito pela Internet. Esse dia ficou conhecido como **Flag Day**.
+* 1983 / Flag Day
 
-7. O conjunto de protocolos TCP\IP foi criado por um funcionário da DARPA e um pesquisador da Universidade de Stanford. São eles, respectivamente:
+7. O conjunto de protocolos TCP/IP foi criado por um funcionário da DARPA e um pesquisador da Universidade de Stanford. São eles, respectivamente:
 * Robert Khan e Vint Cerf
 
 8. O cientista Tim Berners-Lee foi o responsável pela criação de três coisas muito importantes para a Internet. Foram elas:
-* A linguagem HTML \ O protocolo HTTP \ o nome WWW
+* A linguagem HTML / O protocolo HTTP / o nome WWW
 
 9. O primeiro backbone brasileiro surgiu em **1991** para acesso acadêmico, mas só foi liberado para empresas em **1995**.
-* 1991 \ 1995
+* 1991 / 1995
 
 10. Atualmente, a Internet Brasileira atinge quantos estados?
 * 26 estados, além do Distrito Federal.
 
 ### Capítulo 02
+1. Atualmente, na maioria das transmissões feitas mundialmente pela Internet, por onde a maior quantidade de sinais vai passar?
+* Por baixo d'água, em cabos submarinos
+
+2. Os dados que vão trafegar pelas redes e chegar aos computadores vão estar codificados em:
+* Conjuntos de bits e Bytes (0s e 1s)
+
+3. Quando um sinal está representado em um determinado tipo de onda (codificação) e precisamos transformá-lo em outro tipo, dizemos que estamos realizando uma:
+* Modulação
+
+4. Na maioria das vezes que estamos tealizando algum tipo de acesso via rede, um lado será o **Cliente** e vai solicitar o uso de um determinado serviço. Quem vai atender à essa solicitação é considerado um **Servidor**.
+* Cliente / Servidor
+
+5. Todo e qualquer ponto conectado à Internet recebe um identidicador, que se chama "endereço IP". Na versão IPv4, um endereço possui **32** bits, já a versão IPv6 necessita de **128** bits.
+* 32 bits / 128 bits
+
+6. Qual é o serviço (e seu respectivo significado) responsável por resovler os endereços IP dos servidores a partir de um nome? Ele faz com que os usuários não precisem decorar números IP (que inclusive, mudam constantemente)
+* DNS - Domain Name System
+
+7. Uma URL é composta por vários componentes. Na URL **https://www.github.com/vinicius336**, por exemplo, são respectivamente o domínio, o protocolo e o caminho os itens apontados na opção:
+* github.com / https / vinicius336
+
+8. Quando chegar a hora de construir nossos sites, devemos informar aos nossos clientes que geralmente o domínio tem uma taxa de pagamento **anual**, enquanto as hospedagens são de pagamento **mensal** de forma geral.
+* Anual / Mensal
+
+9. Os domínios possuem seus Top Level Domains. Vejamos como exemplo os domínios __estudonauta.com.br__ e __cursoemvideo.com__. No primeiro caso, temos um **ccTLD** e no segundo caso, temos um **GTLD**.
+* ccTLD / GTLD
+
+10. Todo bom serviço de hospedagem deve fornecer recursos e serviços valiosos para seus clientes. Entre os itens a seguir, qual é o único que NÃO É oferecido por uma empresa de hospedagem?
+* Manutenção periódica no PC do cliente
