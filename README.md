@@ -102,3 +102,6 @@
 
 ### Commit 26 - 05.01.2023 - 16:34
 * Espaço no final de cada linha
+
+### Commit 27 - 05.01.2023 - 17:01
+* Questões com todas as alternativas até o Capítulo 3 (marcação de opções minuscula no capítulo 3)

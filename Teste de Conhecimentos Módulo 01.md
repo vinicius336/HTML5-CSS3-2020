@@ -58,72 +58,130 @@
 * [ ] 1985 / 1995 
 
 10. Atualmente, a Internet Brasileira atinge quantos estados? 
-[ ] 19 estados, além do Distrito Federal. 
-[ ] 23 estados, além do Distrito Federal. 
-[ ] 25 estados, além do Distrito Federal. 
-[X] 26 estados, além do Distrito Federal. 
+* [ ] 19 estados, além do Distrito Federal. 
+* [ ] 23 estados, além do Distrito Federal. 
+* [ ] 25 estados, além do Distrito Federal. 
+* [X] 26 estados, além do Distrito Federal. 
 
 ### Capítulo 02
 1. Atualmente, na maioria das transmissões feitas mundialmente pela Internet, por onde a maior quantidade de sinais vai passar?
-* Por baixo d'água, em cabos submarinos
+* [X] Por baixo d'água, em cabos submarinos
+* [ ] Por sinais de satélite, partindo de antenas
+* [ ] Por antenas de comunicação via celular
+* [ ] Por cabos enterrados nos continentes
 
 2. Os dados que vão trafegar pelas redes e chegar aos computadores vão estar codificados em:
-* Conjuntos de bits e Bytes (0s e 1s)
+* [ ] Letras e símbolos
+* [X] Conjuntos de bits e Bytes (0s e 1s)
+* [ ] Onsdas codificadas sem um padrão definido
+* [ ] Arquivos de imagem / textos
 
 3. Quando um sinal está representado em um determinado tipo de onda (codificação) e precisamos transformá-lo em outro tipo, dizemos que estamos realizando uma:
-* Modulação
+* [ ] Extração
+* [ ] Composição
+* [ ] Descompressão
+* [X] Modulação
 
 4. Na maioria das vezes que estamos tealizando algum tipo de acesso via rede, um lado será o **Cliente** e vai solicitar o uso de um determinado serviço. Quem vai atender à essa solicitação é considerado um **Servidor**.
-* Cliente / Servidor
+* [ ] Servidor      /    Cliente
+* [X] Cliente       /    Servidor
+* [ ] Solicitando   /    Provedor
+* [ ] Provedor      /    Servidor
 
 5. Todo e qualquer ponto conectado à Internet recebe um identidicador, que se chama "endereço IP". Na versão IPv4, um endereço possui **32** bits, já a versão IPv6 necessita de **128** bits.
-* 32 bits / 128 bits
+* [ ] 32 bits / 64  bits
+* [ ] 64 bits / 128 bits
+* [X] 32 bits / 128 bits
+* [ ] 16 bits / 64  bits
 
 6. Qual é o serviço (e seu respectivo significado) responsável por resovler os endereços IP dos servidores a partir de um nome? Ele faz com que os usuários não precisem decorar números IP (que inclusive, mudam constantemente)
-* DNS - Domain Name System
+* [X] DNS - Domain Name System
+* [ ] DNS - Domain Name Service
+* [ ] DNS - Domain Name Server
+* [ ] DNS - Data Name Server
 
-7. Uma URL é composta por vários componentes. Na URL **https://www.github.com/vinicius336**, por exemplo, são respectivamente o domínio, o protocolo e o caminho os itens apontados na opção:
-* github.com / https / vinicius336
+7. Uma URL é composta por vários componentes. Na URL **https://www.github.com/vinicius336**, por exemplo, são respectivamente o domínio, o protocolo e o caminho os itens apontados na opção: **(quetão adaptada)**
+* [X] github.com     / https     / vinicius336
+* [ ] github.com     / www       / vinicius336
+* [ ] github         / https     / vinicius336
+* [ ] www.github.com / www       / vinicius336
 
 8. Quando chegar a hora de construir nossos sites, devemos informar aos nossos clientes que geralmente o domínio tem uma taxa de pagamento **anual**, enquanto as hospedagens são de pagamento **mensal** de forma geral.
-* Anual / Mensal
+* [ ] Mensal / Anual
+* [ ] Anual  / Diário
+* [ ] Mensal / Diário
+* [X] Anual  / Mensal
 
 9. Os domínios possuem seus Top Level Domains. Vejamos como exemplo os domínios __estudonauta.com.br__ e __cursoemvideo.com__. No primeiro caso, temos um **ccTLD** e no segundo caso, temos um **GTLD**.
-* ccTLD / GTLD
+* [ ] GTLD  / ccTLD
+* [X] ccTLD / GTLD
+* [ ] DTLD  / CTLD
+* [ ] CTLD  / DTLD
 
 10. Todo bom serviço de hospedagem deve fornecer recursos e serviços valiosos para seus clientes. Entre os itens a seguir, qual é o único que NÃO É oferecido por uma empresa de hospedagem?
-* Manutenção periódica no PC do cliente
+* [ ] Atendimento e suporte
+* [ ] Espaço de disco para armazenamento
+* [X] Manutenção periódica no PC do cliente
+* [ ] Backup constante dos arquivos e banco de dados
 
 ### Capítulo 03
 
 1. Qual das frases a seguir é a única tecnicamente CORRETA de se falar?
-* "Eu programo em linguagem JavaScript"
+* [ ] "Eu programo em linguagem HTML"
+* [ ] "Eu programo em linguagem CSS"
+* [x] "Eu programo em linguagem JavaScript"
+* [ ] "Eu programo em linguagem VSCode"
 
 2. A sigla HTML significa:
-* HyperText Markup Language
+* [ ] Host Text Makeup Language
+* [x] HyperText Markup Language
+* [ ] Hyper Tree Makeup Language
+* [ ] Host Tree Markup Language
 
 3. A sigla CSS significa:
-* Cascading Style Sheets
+* [x] Cascading Style Sheets
 
 4. Correlacione a coluna da esquerda com a da direita, de acordo com o foco de cada uma das tecnologias:
-* (1) HTML  -   (3) Interatividade
-* (2) CSS   -   (1) Conteúdo
-* (3) JS    -   (2) Estilo
+(1) HTML  -   (3) Interatividade
+(2) CSS   -   (1) Conteúdo
+(3) JS    -   (2) Estilo
+* [ ] 1 - 2 - 3
+* [ ] 3 - 2 - 1
+* [ ] 1 - 3 - 2
+* [x] 3 - 1 - 2
 
 5. Qual tag abaixo não tem fechamento?
-* <meta>
+* [ ] <title>
+* [x] <meta>
+* [ ] <strong>
+* [ ] <head>
 
 6. Na tag <a>, o href é um(a):
-* Parâmetro
+* [ ] Conteúdo
+* [x] Parâmetro
+* [ ] Característica
+* [ ] valor
 
 7. Todas as configurações visuais dos elementos HTML são realizadas pela linguagem CSS. Agrupamos todas as declarações CSS de um mesmo elemento dentro de um(a):
-* Seletor
+* [x] Seletor
+* [ ] Parâmetro
+* [ ] Valor
+* [ ] Selecionador
 
 8. Para mudar a cor de um txto em CSS, configuramos qual propriedade?
-* text-color
+* [ ] text
+* [x] text-color
+* [ ] color
+* [ ] font-color
 
 9. Para indicar que um determinado documento HTML está escrito na versão mais recente da linguagem, devemos adcionar a seguinte instrução:
-* <!DOCTYPE html>
+* [ ] <html lang="version5">
+* [ ] <title>HTML5</title>
+* [ ] <meta name="lang" type="html5">
+* [x] <!DOCTYPE html>
 
 10. Qual é a tag de um documento HTML adicionada pra manter a compatibilidade com os caracteres acentuados, muito comuns na língua Portuguesa?
-* <meta charset="UTF-8>
+* [ ] <html lang="pt-br">
+* [x] <meta charset="UTF-8>
+* [ ] <body lang="br">
+* [ ] <head charset="UTF-8">
