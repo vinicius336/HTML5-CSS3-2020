@@ -105,3 +105,6 @@
 
 ### Commit 27 - 05.01.2023 - 17:01
 * Questões com todas as alternativas até o Capítulo 3 (marcação de opções minuscula no capítulo 3)
+
+### Commit 28 - 05.01.2023 - 17:25
+* Crase onde tem exibição de código

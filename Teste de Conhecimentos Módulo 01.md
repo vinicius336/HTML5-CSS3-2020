@@ -1,8 +1,6 @@
-# Teste de Conhecimentos
+# Teste de Conhecimentos - Módulo 01
 
-## Módulo 01
-
-### Capítulo 01
+## Capítulo 01
 1. Em qual período Histórico da humanidade a Internet surgiu? 
 * [ ] Durante a 2ª Guerra Mundial 
 * [ ] Durante a Guerra dos 100 anos 
@@ -63,7 +61,7 @@
 * [ ] 25 estados, além do Distrito Federal. 
 * [X] 26 estados, além do Distrito Federal. 
 
-### Capítulo 02
+## Capítulo 02
 1. Atualmente, na maioria das transmissões feitas mundialmente pela Internet, por onde a maior quantidade de sinais vai passar?
 * [X] Por baixo d'água, em cabos submarinos
 * [ ] Por sinais de satélite, partindo de antenas
@@ -124,7 +122,7 @@
 * [X] Manutenção periódica no PC do cliente
 * [ ] Backup constante dos arquivos e banco de dados
 
-### Capítulo 03
+## Capítulo 03
 
 1. Qual das frases a seguir é a única tecnicamente CORRETA de se falar?
 * [ ] "Eu programo em linguagem HTML"
@@ -140,6 +138,9 @@
 
 3. A sigla CSS significa:
 * [x] Cascading Style Sheets
+* [ ] Cell Safety Science
+* [ ] Characteristic Score Style
+* [ ] Chief Scale Sheets
 
 4. Correlacione a coluna da esquerda com a da direita, de acordo com o foco de cada uma das tecnologias:
 (1) HTML  -   (3) Interatividade
@@ -151,12 +152,12 @@
 * [x] 3 - 1 - 2
 
 5. Qual tag abaixo não tem fechamento?
-* [ ] <title>
-* [x] <meta>
-* [ ] <strong>
-* [ ] <head>
+* [ ] ```<title>```
+* [x] ```<meta>```
+* [ ] ```<strong>```
+* [ ] ```<head>```
 
-6. Na tag <a>, o href é um(a):
+6. Na tag ```<a>```, o href é um(a):
 * [ ] Conteúdo
 * [x] Parâmetro
 * [ ] Característica
@@ -175,13 +176,13 @@
 * [ ] font-color
 
 9. Para indicar que um determinado documento HTML está escrito na versão mais recente da linguagem, devemos adcionar a seguinte instrução:
-* [ ] <html lang="version5">
-* [ ] <title>HTML5</title>
-* [ ] <meta name="lang" type="html5">
-* [x] <!DOCTYPE html>
+* [ ] ```<html lang="version5">```
+* [ ] ```<title>HTML5</title>```
+* [ ] ```<meta name="lang" type="html5">```
+* [x] ```<!DOCTYPE html>```
 
 10. Qual é a tag de um documento HTML adicionada pra manter a compatibilidade com os caracteres acentuados, muito comuns na língua Portuguesa?
-* [ ] <html lang="pt-br">
-* [x] <meta charset="UTF-8>
-* [ ] <body lang="br">
-* [ ] <head charset="UTF-8">
+* [ ] ```<html lang="pt-br">```
+* [x] ```<meta charset="UTF-8>```
+* [ ] ```<body lang="br">```
+* [ ] ```<head charset="UTF-8">```
