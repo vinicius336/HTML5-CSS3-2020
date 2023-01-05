@@ -96,3 +96,6 @@
 
 ### Commit 24 - 05.01.2023 - 16:05
 * Teste de Conhecimentos do Capítulo 03 feito
+
+### Commit 25 - 05.01.2023 - 16:20
+* Organização dos testes de conhecimentos com todas as opções de respostas, com e sem marcados de lista
