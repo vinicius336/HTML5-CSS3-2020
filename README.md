@@ -108,3 +108,6 @@
 
 ### Commit 28 - 05.01.2023 - 17:25
 * Crase onde tem exibição de código
+
+### Commit 29 - 05.01.2023 - 17:45
+* Teste de conhecimento do capítulo 04
