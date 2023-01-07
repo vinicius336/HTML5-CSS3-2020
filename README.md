@@ -135,3 +135,6 @@
 
 ### Commit 35 - 07.01.2023 - 14:55
 * Teste de Conhecimentos Capítulo 09
+
+### Commit 36 - 07.01.2023 - 19:27
+* Teste de conhecimentos Capítulo 10
