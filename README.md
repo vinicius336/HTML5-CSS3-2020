@@ -128,3 +128,7 @@
 
 ### Commit 33 - 06.01.2023 - 23:37
 * Criação dos arquivos modelos dos testes de conhecimentos
+
+### Commit 34 - 07.01.2023 - 00:25
+* Teste de Conhecimentos Capítulo 08
+* Testanto tag no ex002
