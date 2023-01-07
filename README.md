@@ -132,3 +132,6 @@
 ### Commit 34 - 07.01.2023 - 00:25
 * Teste de Conhecimentos Capítulo 08
 * Testanto tag no ex002
+
+### Commit 35 - 07.01.2023 - 14:55
+* Teste de Conhecimentos Capítulo 09
