@@ -118,3 +118,10 @@
 
 ### Commit 31 - 06.01.2023 - 22:35
 * Teste de conhecimento do capítulo 06
+
+### Commit 32 - 06.01.2023 - 23:
+* Teste de conhecimento do capítulo 07
+* Separar um arquivo para cada teste de conhecimento
+* Colocar o arquivo "Teste de Conhecimentos Módulo 01.md" na pasta "Módulo 01"
+* Mudar nome do arquivo "Teste de Conhecimentos Módulo 01.md" para "Teste de Conhecimentos Capítulo 01.md"
+* Criar os arquivos "Teste de Conhecimentos Capítulo xx.md" para cada capítulo para os que já foram feitos
