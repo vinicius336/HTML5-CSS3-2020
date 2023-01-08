@@ -141,3 +141,6 @@
 
 ### Commit 37 - 07.01.2023 - 22:03
 * Teste de conhecimentos Capítulo 11
+
+### Commit 38 - 08.01.2023 - 13:55
+* Teste ce conhecimento Capítulo 12
