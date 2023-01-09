@@ -144,3 +144,8 @@
 
 ### Commit 38 - 08.01.2023 - 13:55
 * Teste ce conhecimento Capítulo 12
+
+### Commit 39 - 08.01.2023 - 22:57
+* Teste de conhecimento Capítulo 13 (sem as respostas)
+* Adequação dos títulos dos exercícios
+* Inserção de favicon nos exercícios

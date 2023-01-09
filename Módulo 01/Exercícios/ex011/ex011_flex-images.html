@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/flex_image.ico" type="image/x-icon">
+        <title>Imagens Flexíveis</title>
+    </head>
+    <body>
+<!--_______________________________IMAGENS__________________________________-->
+        <h1><a href="ex011_flex-images.html" target="_parent" rel="prev">Imagens Flexíveis</a></h1>
+        <ol>
+            <li>Criar, ou obter, imagens com tamanhos diferentes (pequena, média e grande).</li>
+            <li>Tente abrir esse site em vários dispositivos, ou simplesmente aumete e diminua a janela do seu navegador.</li>
+        </ol>
+        <picture> <!-- tag semântica para organizar imagens na página -->
+            <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+            <!--
+                srcset  >>  Caminho da imagem carregada
+                media   >>  Informa o tamanho máximo (max-width), ou mínimo (min-width) que tela/janela exibirá o arquivo informado em srcset.
+                type    >>  Informa o tipo de imagem que será carregada
+            -->
+            <source media="(max-width: 1210px)" srcset="imagens/paisagem-m.png" type="image/png">
+            <img  src="imagens/paisagem-g.png" alt="Imagem Flexível">
+            <!--
+                Em último da lista é colocado a imagem que poderá ser carregada no maior tipo de tela/janela, pois será o tamanho máximo informado independente do tamanho da tela/janela.
+            -->
+        </picture>
+        <hr>
+        <h1><a href="ex011_audio.html" target="_parent" rel="prev">Áudios</a></h1>
+    </body>
+</html>
