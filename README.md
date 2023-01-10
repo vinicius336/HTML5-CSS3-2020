@@ -1,6 +1,7 @@
 # Desafios-HTML-CSS
 * Resolução dos desafios propostos no repositório HTML-CSS do Professor Gustavo Guanabara
-*[Repositório html-css do GitHub do Prof. Gustavo Guanabara](https://github.com/gustavoguanabara/html-css)
+* [Repositório html-css do GitHub do Prof. Gustavo Guanabara](https://github.com/gustavoguanabara/html-css)
+* Os arquivos principais de cada exercício foram denominados como o nome do respectivo exercício para facilitar a identificação nas pastas, mas o padrão do arquivo principal deverá sempre ser denominado como index.html
 
 ## Módulo 01
 
@@ -158,3 +159,7 @@
 
 ### Commit 42 - 10.01.2023 - 15:15
 * Exercício 014 Feito (falta o arquivo favicon)
+
+### Commit 43 - 10.01.2023 - 16:08
+* Exercício 015 Feito (falta o arquivo favicon)
+* Adição de uma descrição no início deste arquivo
