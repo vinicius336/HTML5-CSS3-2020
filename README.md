@@ -163,3 +163,6 @@
 ### Commit 43 - 10.01.2023 - 16:08
 * Exercício 015 Feito (falta o arquivo favicon)
 * Adição de uma descrição no início deste arquivo
+
+### Commit 44 - 10.01.2023 - 16:49
+* Respondido questão 9 do teste do capítulo 007

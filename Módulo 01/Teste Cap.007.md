@@ -51,7 +51,7 @@
 9. Para criar um bloco de texto com termos genéricos em latim usando o VSCode, basta digitar a palavra **lorem** e depois apertar a tecla **Enter**.
 * [ ] lorem / Esc
 * [ ] ipsum / Enter
-* [ ] lorem / Enter
+* [x] lorem / Enter
 * [ ] ipsum / Esc
 
 10. Se não configurarmos o estilo de cada título, os textos dentro da tag de nível 1 terão letras **maior**, enquanto aqueles dentro da tag de nível 6 terão letras **menor**. Qual dos itens abaixo é o único preenche corretamente as lacunas desta frase na ordem correta?
