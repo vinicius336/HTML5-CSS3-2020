@@ -152,3 +152,6 @@
 
 ### Commit 40 - 10.01.2023 - 14:05
 * Alteração dos nomes dos arquivos dos testes de conhecimentos
+
+### Commit 41 - 10.01.2023 - 14:40
+* Exercício 013 Feito (falta o arquivo favico)
