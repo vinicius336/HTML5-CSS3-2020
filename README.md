@@ -149,3 +149,6 @@
 * Teste de conhecimento Capítulo 13 (sem as respostas)
 * Adequação dos títulos dos exercícios
 * Inserção de favicon nos exercícios
+
+### Commit 40 - 10.01.2023 - 14:05
+* Alteração dos nomes dos arquivos dos testes de conhecimentos
