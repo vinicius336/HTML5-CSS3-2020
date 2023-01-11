@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gradiente em CSS</title>
+        <style>
+            *{
+            /* O ASTERÍSCO APLICA A CONFICURAÇÃO CSS PARA TODO O ARQUIVO INDICADO (GLOBALMENTE) */
+                height: 100%;
+                margin: 0;
+/* Para este exercício o "height: 90%;" servirá para aplicar o gradiente no tamanho da página inteira ao ser informado a direção verticalmente */
+            }
+
+            /* Para usar o gradiente a CSS pede que seja usado o PARÂMETRO "background-image" */
+            h1{
+/*  No VALOR "linear-gradient()" deve-se usar a direção que será aplicado o gradiente ("to right" (para a direita), white, blue ) e as cores a serem aplicadas (escrito ou em hexadecimal)   */
+            background-image: linear-gradient(to bottom, white, blue);
+            float: left; /* flutuar à esquerda */
+            background-attachment: fixed; /* fixar o background */
+            }
+
+            h2{
+/*  No VALOR "linear-gradient()" deve-se usar a direção que será aplicado o gradiente ("180deg, #ffffff, #0000ff") e as cores a serem aplicadas (por escrito ou em valores hexadecimal)    */
+                background-image: linear-gradient(180deg, #ffffff, #0000ff);
+                float: right; /* flutuar à direita */
+                background-attachment: fixed; /* fixar o background */
+            }
+
+            h3{
+/*  No valor-"radial-gradient()" deve-se usar a forma que será aplicado o gradiente (circle, por exemplo) e as cores a serem aplicadas (podem ser mais de duas cores)    */
+                height: 34%;
+                background-image: radial-gradient(circle, #ff0000, 28%, #00ff00, 60%, #0000ff);
+            }
+            
+            h4{
+/*      */
+                height: 33%;
+                background-image: repeating-linear-gradient(to top, #ff0000, 30%, #00ff00, 66%, #0000ff);
+            }
+            
+            h5{
+/*      */
+                height: 33%;
+                background-image: repeating-radial-gradient(circle, #ffffff, 40%, #0000ff);
+            }
+        </style>
+    </head>
+    <body>
+        <h1><a href="cor02.html">Testando Gradientes</a></h1>
+        <h2 style="text-align: right;"><a href="ex016.html">Página 01</a></h2>
+        <h3>Radial</h3>
+        <h4>Repeating linear</h4>
+        <h5>Repeating radial</h5>
+    </body>
+</html>

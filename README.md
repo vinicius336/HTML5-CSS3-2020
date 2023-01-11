@@ -115,7 +115,7 @@
 
 ### Commit 30 - 05.01.2023 - 18:20
 * Teste de conhecimento do capítulo 05
-* Relembrando código do símbolo seta para a direita no ex002.html
+* Relembrando código do símbolo seta para a direita no **ex002.html**
 
 ### Commit 31 - 06.01.2023 - 22:35
 * Teste de conhecimento do capítulo 06
@@ -123,8 +123,8 @@
 ### Commit 32 - 06.01.2023 - 23:25
 * Teste de conhecimento do capítulo 07
 * Separar um arquivo para cada teste de conhecimento
-* Colocar o arquivo "Teste de Conhecimentos Módulo 01.md" na pasta "Módulo 01"
-* Mudar nome do arquivo "Teste de Conhecimentos Módulo 01.md" para "Teste de Conhecimentos Capítulo 01.md"
+* Colocar o arquivo **Teste de Conhecimentos Módulo 01.md** na pasta **Módulo 01**
+* Mudar nome do arquivo **Teste de Conhecimentos Módulo 01.md** para "Teste de Conhecimentos Capítulo 01.md"
 * Criar os arquivos "Teste de Conhecimentos Capítulo xx.md" para cada capítulo para os que já foram feitos
 
 ### Commit 33 - 06.01.2023 - 23:37
@@ -168,7 +168,7 @@
 * Respondido questão 9 do teste do capítulo 007
 
 ### Commit 45 - 10.01.2023 - 22:16
-* Mudança dos arquivos de testes de conhecimentos do capítulo 013 ao 020 para a pasta "Módulo 02"
+* Mudança dos arquivos de testes de conhecimentos do capítulo 013 ao 020 para a pasta **Módulo 02**
 * Teste de conhecimento Capítulo 13 respondido
 
 ### Commit 46 - 11.01.2023 - 13:25
@@ -179,3 +179,8 @@
 * Organização dos testes de conhecimentos do Módulo 01 em uma pasta
 * Adição de favicon nos exercícios 013, 014, 015 e 016
 * Exercício 016 feito - Representação de cores
+
+### Commit 48 - 11.01.2023 - 
+* Pasta dos testes de conhecimentos do Módulo 02
+* Mudança dos arquivos de testes de conhecimento para a pasta **Teste de Conhecimento** na pasta **Módulo 02**
+* Link para a página **cor02.html** na página **ex016.html**, para fazer um exercício adicional usando Gradientes
