@@ -180,7 +180,11 @@
 * Adição de favicon nos exercícios 013, 014, 015 e 016
 * Exercício 016 feito - Representação de cores
 
-### Commit 48 - 11.01.2023 - 
+### Commit 48 - 11.01.2023 - 17:49
 * Pasta dos testes de conhecimentos do Módulo 02
 * Mudança dos arquivos de testes de conhecimento para a pasta **Teste de Conhecimento** na pasta **Módulo 02**
 * Link para a página **cor02.html** na página **ex016.html**, para fazer um exercício adicional usando Gradientes
+
+### Commit 49 - 11.01.2023 - 17:45
+* Inclusão do horário do último commit (visto pelo GitBash)
+* Exercício 016b Feito - Um exemplo real com harmonia de cores
