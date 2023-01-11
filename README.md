@@ -167,6 +167,10 @@
 ### Commit 44 - 10.01.2023 - 16:49
 * Respondido questão 9 do teste do capítulo 007
 
-### Commit 45 - 10.01.2023 - 
+### Commit 45 - 10.01.2023 - 22:16
 * Mudança dos arquivos de testes de conhecimentos do capítulo 013 ao 020 para a pasta "Módulo 02"
 * Teste de conhecimento Capítulo 13 respondido
+
+### Commit 46 - 11.01.2023 - 13:25
+* Inclusão do horário do último commit (visto pelo GitBash)
+* Exercício 016 - Representação de cores
