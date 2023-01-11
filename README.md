@@ -174,3 +174,8 @@
 ### Commit 46 - 11.01.2023 - 13:25
 * Inclusão do horário do último commit (visto pelo GitBash)
 * Exercício 016 - Representação de cores
+
+### Commit 47 - 11.01.2023 - 13:50
+* Organização dos testes de conhecimentos do Módulo 01 em uma pasta
+* Adição de favicon nos exercícios 013, 014, 015 e 016
+* Exercício 016 feito - Representação de cores
