@@ -210,3 +210,6 @@
 
 ### Commit 55 - 13/01/2023 - 18:06
 * Exercício 017c feito - Peso, estilo e shorthand
+
+### Commit 56 - 13/01/2023 - 18:50
+* Exercício 018 feito - Fontes externas com o Google fontes
