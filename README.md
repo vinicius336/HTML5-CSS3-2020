@@ -196,3 +196,6 @@
 
 ### Commit 51 - 12/01/2023 - 23:50
 * Teste de conhecimento 014 sem as respostas
+
+### Commit 52 - 12/01/2023 - 12:08
+* Respostas do teste de conhecimento 014
