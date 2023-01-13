@@ -204,3 +204,6 @@
 * Exercício 017 feito - Trabalhando com fontes
 * Adequação de comentários nos arquivos **ex016.html** e **cor02.html**
 * Ajuste da data do commit anterior
+
+### Commit 54 - 13/01/2023 - 14:04
+* Exercício 017b feito - TAMANHO DE FONTES (apenas explixação em comentário no arquivo e link para o **ex017.html**)
