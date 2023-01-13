@@ -213,3 +213,6 @@
 
 ### Commit 56 - 13/01/2023 - 18:50
 * Exercício 018 feito - Fontes externas com o Google fontes
+
+### Commit 57 - 13/01/2023 - 18:55
+* Comentário na regra do shorthand
