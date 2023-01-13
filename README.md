@@ -193,3 +193,6 @@
 * Mudança de caminho da pasta **Testes de Conhecimento** da pasta **Exercícios** para a pasta **Módulo 01**
 * Mudança de caminho da pasta **Teste de conhecimento** da pasta **Exercícios** para a pasta **Módulo 02**
 * Alteração do nome da pasta **Teste de conhecimentos** na pasta **Módulo 02** para **Testes de Conhecimento**
+
+### Commit 51 - 12/01/2023 - 23:50
+* Teste de conhecimento 014 sem as respostas
