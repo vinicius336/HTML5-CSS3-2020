@@ -207,3 +207,6 @@
 
 ### Commit 54 - 13/01/2023 - 14:04
 * Exercício 017b feito - TAMANHO DE FONTES (apenas explixação em comentário no arquivo e link para o **ex017.html**)
+
+### Commit 55 - 13/01/2023 - 18:06
+* Exercício 017c feito - Peso, estilo e shorthand

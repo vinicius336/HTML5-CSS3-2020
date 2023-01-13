@@ -4,28 +4,40 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peso, Estilo e Shorthand</title>
         <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-        <title>Fontes em CSS</title>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
             body{
-                font-family: Arial, Helvetica, sans-serif
+                font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                font-weight: normal;
+                font-style: italic;
             }
+            /*
+                weight = Peso
+                width  = Tamanho
+                height = Altura
 
+                Peso da fonte: lighter|normal|bold|bolder
+
+                ORDEM DO SHORTHAND
+                1- font-style  >> italic normal oblique inherit initial unset
+                2- font-weight >> lighter light normal bold bolder inherit initial unset 100 200 300 400 500 600 700 800 900 
+                3- font-size   >> xx-small x-small smaller small medium large larger x-large xx-large inherit initial unset
+                4- font-family >> NOME DA FONTE
+            */
             h1{
-                font-family: 'Times New Roman', Times, serif;
+                /* Abaixo um shorthand */
+                font: italic bolder 3em 'Work Sans', sans-serif;
             }
-
             h2{
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-            }
-            
-            h3{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font: normal light 'times', sans-serif;
             }
         </style>
     </head>
     <body>
-        <h1><a href="ex017.html">Trabalhando com fontes</a></h1>
+        <h1><a href="ex017c.html">Peso, Estilo e Shorthand</a></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi aspernatur voluptatem optio at quibusdam voluptas minima repellat reiciendis quo amet veritatis modi quis alias placeat, beatae nam qui corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus soluta quis, harum vel ea iure obcaecati, alias, adipisci fugiat facilis? Eaque temporibus corrupti inventore quis voluptatibus aliquam cupiditate modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore impedit, vitae aut, minima eveniet maiores error accusantium quasi ad laboriosam saepe et repudiandae fuga asperiores odio, voluptatem voluptate possimus aspernatur!</p>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quia totam laboriosam! Dolorum consectetur excepturi eum quas praesentium sed minus omnis a odit hic, ipsum perspiciatis. Cumque facere labore architecto?</p>
@@ -37,7 +49,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dicta provident itaque illum tenetur error illo quae corrupti id minima. Praesentium omnis dignissimos quaerat! Reiciendis vitae et magnam quasi non!</p>
 
         <h4><a href="ex017.html">Trabalhando com fontes</a></h4>
-        <h4><a href="ex017b.html">TAMANHO DAS FONTES</a></h4> 
+        <h4><a href="ex017b.html">TAMANHO DAS FONTES</a></h4>
         <h4><a href="ex017c.html">Peso, estilo e shorthand</a></h4>
     </body>
 </html>
