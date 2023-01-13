@@ -188,3 +188,8 @@
 ### Commit 49 - 11.01.2023 - 17:45
 * Inclusão do horário do último commit (visto pelo GitBash)
 * Exercício 016b Feito - Um exemplo real com harmonia de cores
+
+### Commit 50 - 12/01/2023 - 23:25
+* Mudança de caminho da pasta **Testes de Conhecimento** da pasta **Exercícios** para a pasta **Módulo 01**
+* Mudança de caminho da pasta **Teste de conhecimento** da pasta **Exercícios** para a pasta **Módulo 02**
+* Alteração do nome da pasta **Teste de conhecimentos** na pasta **Módulo 02** para **Testes de Conhecimento**
