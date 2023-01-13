@@ -197,5 +197,10 @@
 ### Commit 51 - 12/01/2023 - 23:50
 * Teste de conhecimento 014 sem as respostas
 
-### Commit 52 - 12/01/2023 - 12:08
+### Commit 52 - 13/01/2023 - 12:08
 * Respostas do teste de conhecimento 014
+
+### Commit 53 - 13/01/2023 - 13:42
+* Exercício 017 feito - Trabalhando com fontes
+* Adequação de comentários nos arquivos **ex016.html** e **cor02.html**
+* Ajuste da data do commit anterior
