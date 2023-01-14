@@ -219,3 +219,6 @@
 
 ### Commit 58 - 13/01/2023 - 23:59
 * Exercício 018b feito - Fontes externas baixadas
+
+### Commit 59 - 14/01/2023 - 17:48
+* Exercício 017d feito - Alinhamento
