@@ -7,40 +7,52 @@
         <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
         <title>Fontes Externas</title>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+            @font-face {
+                font-family: 'Love';
+                src: url(font/love\ larry\ ttf.ttf) format(truetype);
+                /* Para a mesma fonte com umas extensão diferente (otf) repete url/format após uma vírgula */
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'Vogue';
+                src: url(font/Vogue.ttf) format(truetype);
+                font-weight: normal;
+                font-style: normal;
+            }
 
             body{
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 16px;
-                color: black;
-            }
-
-            h1{
-                font-family: 'Kaushan Script';
-                font-size: 3em;
-            }
-
-            h2{
-                font-family: 'Kaushan Script';
-                font-size: 2em;
-            }
-
-            p{
                 /*ORDEM DO SHORTHAND
                 1- font-style  >> italic normal oblique inherit initial unset
                 2- font-weight >> lighter light normal bold bolder inherit initial unset 100 200 300 400 500 600 700 800 900 
                 3- font-size   >> xx-small x-small smaller small medium large larger x-large xx-large inherit initial unset Xpx Xem
                 4- font-family >> NOME DA FONTE*/
-                font: italic normal medium 'Fredericka the Great';
+                font: normal bold 1em 'Vogue';
             }
+
+            h1{
+                font-family: 'Love';
+            }
+
+            h2{
+                font: italic normal 2em 'Love';
+            }
+            /*
+                Tipos de format()
+                - opentype(otf)
+                - truetype(ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
         </style>
     </head>
     <body>
-        <h1><a href="ex018.html">Fonte Externa GoogleAPIs</a></h1>
+        <h1><a href="ex018b.html">Fonte Externa Baixada</a></h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta fuga excepturi perferendis omnis impedit autem hic nam a facere ab exercitationem voluptates dolorem optio assumenda ad, quas vero quos. Vel?</p>
         <h2>Subtítulo</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut inventore ipsum quas quisquam ipsa ratione architecto, velit sed, sint quia asperiores ab, sit ad maxime. Minus vero odio atque ipsa? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque voluptas dolor ipsam! Ad voluptate fugit dolores, modi laboriosam et ducimus minus! Laborum explicabo deleniti natus doloremque libero excepturi ullam deserunt?</p>
-        <h3><a href="ex018b.html">Fontes Externas Baixadas</a></h3>
+        <h3><a href="ex018.html">Fontes Externas GoogleAPIs</a></h3>
     </body>
 </html>

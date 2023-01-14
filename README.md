@@ -216,3 +216,6 @@
 
 ### Commit 57 - 13/01/2023 - 18:55
 * Comentário na regra do shorthand
+
+### Commit 58 - 13/01/2023 - 23:59
+* Exercício 018b feito - Fontes externas baixadas
