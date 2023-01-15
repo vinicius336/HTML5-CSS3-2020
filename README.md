@@ -225,3 +225,6 @@
 
 ### Commit 60 - 14/01/2023 - 23:30
 * Teste de Conhecimentos Capítulo 015
+
+### Commit 61 - 15/01/2023 - 12:48
+* Exercício 019 - Seletores personalizados >> Identificadores ID
