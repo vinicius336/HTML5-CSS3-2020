@@ -222,3 +222,6 @@
 
 ### Commit 59 - 14/01/2023 - 17:48
 * Exercício 017d feito - Alinhamento
+
+### Commit 60 - 14/01/2023 - 23:30
+* Teste de Conhecimentos Capítulo 015
