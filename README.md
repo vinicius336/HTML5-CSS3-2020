@@ -171,6 +171,8 @@
 * Mudança dos arquivos de testes de conhecimentos do capítulo 013 ao 020 para a pasta **Módulo 02**
 * Teste de conhecimento Capítulo 13 respondido
 
+## Módulo 02
+
 ### Commit 46 - 11.01.2023 - 13:25
 * Inclusão do horário do último commit (visto pelo GitBash)
 * Exercício 016 - Representação de cores
@@ -234,3 +236,8 @@
 
 ### Commit 63 - 15/01/2023 - 15:52
 * Exercício 020 e 020b - Pseudo classes com hover
+
+### Commit 64 - 15/01/2023 - 19:22
+* Exercício 020c - Pseudo elementos
+* Organização dos exercícios 020
+* Divisão do módulo 02 no README.md

@@ -1,15 +1,23 @@
 @charset "UTF-8";
-
-h1 > a, h2 > a{
+/* body criado para o ex020c */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Classe dos títulos extra aula */
+.exercicio{
     color: #0054e6;
     text-decoration: none;
 }
-
+/* Muda cor de link extra aula */
+.exercicio:hover{
+    color: rgb(109, 53, 240);
+}
+/* Underline título página atual */
 h1 > a:hover{
     color: #0054e6;
     text-decoration: underline;
 }
-
+/* Caixas ex020 */
 div{
     display: inline-block;
     background-color: lightgray;
@@ -35,18 +43,9 @@ div:hover{
 #d3:hover > p{
     color: blue;
 }
-
-#d4{ /* resetando div com a id #d4 */
-    background-color: white;
-    color: black;
-    border: none;
-    height: 100%;
-    width: 100%;
-    text-align: left;
-}
-
+/* Efeito caixa ex020b */
 #d4:hover{
-    background-color: blue;
+    background-color: lightblue;
 }
 
 #d4 > p{
@@ -57,3 +56,38 @@ div:hover{
     display: block;
     background-color: red;
 }
+/* Estilo links ex020c */
+.ex020c{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ex020c:visited{
+    color: darkred;
+}
+
+.ex020c:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.ex020c:active{
+    color: yellow;
+}
+
+#especial::before{
+    content: '» ';
+    color: red;
+    font-size: 1.5em;
+}
+
+#especial::after{
+    content: ' «';
+    color: red;
+    font-size: 1.5em;
+}
+/*
+«
+»
+*/
