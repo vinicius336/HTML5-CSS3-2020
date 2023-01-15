@@ -228,3 +228,6 @@
 
 ### Commit 61 - 15/01/2023 - 12:48
 * Exercício 019 - Seletores personalizados >> Identificadores ID
+
+### Commit 62 - 15/01/2023 - 14:15
+* Exercício 019 atualizado - Seletores personalizados >> Classes class
