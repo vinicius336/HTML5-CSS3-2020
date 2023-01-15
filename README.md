@@ -231,3 +231,6 @@
 
 ### Commit 62 - 15/01/2023 - 14:15
 * Exercício 019 atualizado - Seletores personalizados >> Classes class
+
+### Commit 63 - 15/01/2023 - 15:52
+* Exercício 020 e 020b - Pseudo classes com hover

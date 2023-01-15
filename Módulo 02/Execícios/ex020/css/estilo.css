@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+h1 > a, h2 > a{
+    color: #0054e6;
+    text-decoration: none;
+}
+
+h1 > a:hover{
+    color: #0054e6;
+    text-decoration: underline;
+}
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    transition: 1s; 
+}
+
+div:hover{
+    background-color: darkgray;
+}
+
+#d1:hover > p{
+    color: red;
+}
+
+#d2:hover > p{
+    color: rgb(51, 255, 0);
+}
+
+#d3:hover > p{
+    color: blue;
+}
+
+#d4{ /* resetando div com a id #d4 */
+    background-color: white;
+    color: black;
+    border: none;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+#d4:hover{
+    background-color: blue;
+}
+
+#d4 > p{
+    display: none;
+}
+
+#d4:hover > p{
+    display: block;
+    background-color: red;
+}
