@@ -241,3 +241,6 @@
 * Exercício 020c - Pseudo elementos
 * Organização dos exercícios 020
 * Divisão do módulo 02 no README.md
+
+### Commit 65 - 16/01/2023 - 19:12
+* Teste de conhecimentos Capítulo 16 feito
