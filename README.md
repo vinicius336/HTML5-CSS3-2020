@@ -244,3 +244,7 @@
 
 ### Commit 65 - 16/01/2023 - 19:12
 * Teste de conhecimentos Capítulo 16 feito
+
+### Commit 66 - 17/01/2023 - 14:25
+* Exercício 021 feito - Box-level e Inline-level 
+* Exercício 021b - arquivo iniciado
