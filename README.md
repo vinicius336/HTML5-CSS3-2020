@@ -275,3 +275,6 @@
 
 ### Commit 75 - 18/01/2023 - 22:21
 * Adicionando outline no exercício 021
+
+### Commit 76 - 19/01/2023 - 01:20
+* Exercício 021b feito com adaptações - Grouping Tags e Caixas
