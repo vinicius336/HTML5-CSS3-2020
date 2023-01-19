@@ -126,17 +126,20 @@ main{
     margin: 10px;
     padding: 1px 20px;
     text-align: justify;
-    border-radius: 3%;
+    border-radius: 3px;
 }
 
 main > section{
     background-color: darkgray;
     padding: 10px;
     margin: 20px 10px;
-    border-radius: 6%;
+    border-radius: 6px;
+    /* Arredondamento de vértices das caixas
+    Parâmetros do border-radius iguais ao margin/padding - top/right/bottom/left */
     box-shadow: 10px 10px 10px 5px black;
     /* Parâmetros do box-shadow:
     Deslocamento Horizontal / Deslocamento Vertical / Espalhamento (blur) / Alcance (Spread) / Cor */
+    
 }
 
 main > section > h2{
@@ -151,10 +154,11 @@ main > section > p{
 article{
     display: inline-block;
     width: 70%;
+    height: 400px;
     background-color: lightgrey;
     padding: 10px 20px;
-    border-radius: 9%;
-    box-shadow: 10px 10px 10px 0px lightgray;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px 0px lightgray;
     /*
         É possível gerar um box-shadow através do DEV-Tools do navegador
     */

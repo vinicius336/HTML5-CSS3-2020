@@ -280,4 +280,7 @@
 * Exercício 021b feito com adaptações - Grouping Tags e Caixas
 
 ### Commit 77 - 19/01/2023 - 13:15
-* Exercício 021b.2 feito - Adicionando Sombras em caixas
+* Exercício 021b.2 feito - Adicionando Sombras em caixas (box-shadow)
+
+### Commit 78 - 19/01/2023 - 14:42
+* Exercício 021b.3 feito - Adicionando Bordas Arredondadas (border-radius)
