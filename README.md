@@ -278,3 +278,6 @@
 
 ### Commit 76 - 19/01/2023 - 01:20
 * Exercício 021b feito com adaptações - Grouping Tags e Caixas
+
+### Commit 77 - 19/01/2023 - 13:15
+* Exercício 021b.2 feito - Adicionando Sombras em caixas

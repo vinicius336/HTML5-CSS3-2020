@@ -122,18 +122,21 @@ nav > a:hover{
 
 /* Estilo do Principal */
 main{
-    background-color: darkgrey;
+    background-color: dimgrey;
     margin: 10px;
     padding: 1px 20px;
     text-align: justify;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 main > section{
-    background-color: dimgray;
+    background-color: darkgray;
     padding: 10px;
     margin: 20px 10px;
-    border-radius: 10%;
+    border-radius: 6%;
+    box-shadow: 10px 10px 10px 5px black;
+    /* Parâmetros do box-shadow:
+    Deslocamento Horizontal / Deslocamento Vertical / Espalhamento (blur) / Alcance (Spread) / Cor */
 }
 
 main > section > h2{
@@ -148,9 +151,13 @@ main > section > p{
 article{
     display: inline-block;
     width: 70%;
-    background-color: lightslategrey;
+    background-color: lightgrey;
     padding: 10px 20px;
-    border-radius: 15%;
+    border-radius: 9%;
+    box-shadow: 10px 10px 10px 0px lightgray;
+    /*
+        É possível gerar um box-shadow através do DEV-Tools do navegador
+    */
 }
 
 article > h2{
@@ -168,13 +175,19 @@ img{
     border: 4px double blue;
     border-radius: 40%;
 }
+
 /* Estilo do Rodapé */
 footer{
     background-color: darkslategrey;
     color: white;
-    font: italic bolder .8em Arial;
-    padding: 1px 0;
     text-align: center;
+    font: italic bolder .8em Arial;
+    padding: 5px;
+    margin: 2px;
+}
+
+footer > p{
+    margin: 0;
 }
 
 .topo{
@@ -185,7 +198,7 @@ footer{
 }
 
 .topo > a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
