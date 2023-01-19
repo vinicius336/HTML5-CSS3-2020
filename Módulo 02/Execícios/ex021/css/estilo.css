@@ -7,41 +7,52 @@ body{
 #box-level{
     width: 412px;
     height: 300px;
+    background-color: antiquewhite;
     
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
     border-color: red;
 
-    margin-top: 10px; /* margem de cima */
+    outline: 10px dashed black; /* uma linha externa criada a partir da margem */
+
+    margin-top: 20px; /* margem de cima */
     margin-right: 10px; /* margem direita (sobrepõe margin: auto) */
-    margin-bottom: 10px; /* margem de baixo */
-    margin-left: 10px; /* margem esquerda (sobrepõe margin: auto) */
-    margin: auto; /* Centraliza verticalmente (sobrepõe margin-right/left */
+    margin-bottom: 40px; /* margem de baixo */
+    margin-left: 2px; /* margem esquerda (sobrepõe margin: auto) */
+    /*margin: 50px auto; /* Centraliza verticalmente (sobrepõe margin-right/left */
     
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    padding: 10px; /* Shorthand (tudo igual) */
+    /*padding: 10px; /* Shorthand (tudo igual) */
 }
 
 #inline-level{
+    display: inline-block; /* Permite configurar altura e não quebra como uma palavra */
+
     border-width: 1px;
     border-style: solid;
     border-color: blue;
     border: 1px solid blue; /* Shorthand */
 
-    margin-top: 800px;   /* Elementos inline-level não tem margin-top/bottom */
+    outline: 6px dotted darkcyan;
+    
+    margin-top: 10px;   /* Elementos inline-level não tem margin-top/bottom */
     margin-right: 20px; /* Margem direita  do elemento inline-level */
-    margin-bottom: 30px; /* Elementos inline-level não tem margin-top/bottom */
+    margin-bottom: 10px; /* Elementos inline-level não tem margin-top/bottom */
     margin-left: 20px;   /* Margem esquerda do elemento inline-level */
 
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
-    padding: 40px 20px; /* Shorthand Vertical/Horizontal */
+    /*padding: 10px 20px; /* Shorthand Vertical/Horizontal */
     /* 10px (cima/baixo - vertical) 20px (direita/esquerda - horizontal) */
+}
+
+p{
+    text-indent: 30px;
 }
 
 /* Formatação dos links para as páginas no ex021 - BBMP */

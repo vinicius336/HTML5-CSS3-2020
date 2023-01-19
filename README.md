@@ -272,3 +272,6 @@
 * Organização das descrições em cada Commit no README.md
 * Numeração correta dos Commits
 * Adequação de **Data** e **Hora** dos Commits
+
+### Commit 75 - 18/01/2023 - 22:21
+* Adicionando outline no exercício 021
