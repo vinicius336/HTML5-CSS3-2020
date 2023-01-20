@@ -287,3 +287,6 @@
 
 ### Commit 79 - 19/01/2023 - 22:50
 * Exercício 021c - Bordas personalizadas (Não funcionou no Google Chrome e MS Edge)
+
+### Commit 80 - 20/01/2023 - 01:07
+* Desafio site Android em andamento - **Falta identificar alguns conteúdos e finalizar o CSS**

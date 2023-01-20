@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-image: linear-gradient(to bottom, lightgreen, darkgreen);
+    margin-top: 10px;
+}
+
+header > h1{
+    margin-top: 0px;
+    text-align: center;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font: normal normal 1em Arial;
+    padding: 5px;
+}
+
+main{
+    background-color: lightgreen;
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+img#android{
+    display: inline-block;
+    align-items: center;
+}
+
+#sec03 > article{
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#sec03 > article > h3{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0px;
+}
+
+#sec03 > article > p{
+    margin: 0px;
+    padding: 0px 10px 20px 20px;
+}
+
+footer{
+    background-color: darkgreen;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    font: normal normal .8em 'san-serif';
+    padding: 4px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font: normal bold 1.2em Arial;
+}
