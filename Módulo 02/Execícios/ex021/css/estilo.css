@@ -209,3 +209,15 @@ footer > p{
 .topo:hover{
     text-decoration: underline;
 }
+
+/* Borda Personalizada */
+h3{
+    border: 10px solid transparent;
+    padding: 10px;
+    margin: 10px;
+
+    border-image-source: url('imagens/borda.png');
+    border-image-slice: 20;
+    border-image-slice: repeat;
+    border-image: url('imagens/borda.png') 27 repeat; /* Shorthand */
+}

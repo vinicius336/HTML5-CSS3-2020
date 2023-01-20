@@ -284,3 +284,6 @@
 
 ### Commit 78 - 19/01/2023 - 14:42
 * Exercício 021b.3 feito - Adicionando Bordas Arredondadas (border-radius)
+
+### Commit 79 - 19/01/2023 - 22:50
+* Exercício 021c - Bordas personalizadas (Não funcionou no Google Chrome e MS Edge)
