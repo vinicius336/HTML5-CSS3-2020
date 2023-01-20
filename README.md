@@ -290,3 +290,6 @@
 
 ### Commit 80 - 20/01/2023 - 01:07
 * Desafio site Android em andamento - **Falta identificar alguns conteúdos e finalizar o CSS**
+
+### Commit 81 - 20/01/2023 - 15:23
+* Desafio site Android em andamento - **Configuração dos títulos h2, fontes e vídeo**
