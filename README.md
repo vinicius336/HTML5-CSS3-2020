@@ -293,3 +293,6 @@
 
 ### Commit 81 - 20/01/2023 - 15:23
 * Desafio site Android em andamento - **Configuração dos títulos h2, fontes e vídeo**
+
+### Commit 82 - 21/01/2023 - 17:35
+* Desafio site Android finalizado - **Vídeo não está completamente adaptado à tela. Há uma linha branca acima do footer que deveria ser um espaço da cor da lateral (main). No momento da correção adiciono os links do conteúdo.**

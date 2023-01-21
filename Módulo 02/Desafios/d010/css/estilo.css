@@ -3,102 +3,155 @@
     font-family: 'iDroid';
     src: url(../fontes/idroid.otf) format(truetype);
 }
-
+/* ---------------------------------BODY--------------------------------- */
 body{
     margin: 0;
     padding: 0;
 }
-
+/* ------------------------------CABEÇALHO------------------------------- */
 header{
-    background-image: linear-gradient(to bottom, lightgreen, darkgreen);
-}
-
-#cabecalho{
-    display: inline-block;
-    width: 500px;
+    background-image: linear-gradient(to bottom, rgb(144, 238, 183), 20%, rgb(7, 153, 68), 70%,  rgb(0, 100, 38));
 }
 
 #cabecalho > h1{
     margin: 0;
-    font: normal normal 2em Helvetica;
+    padding: 30px;
+    text-align: center;
     color: white;
+    font: normal 500 2em Helvetica;
+    text-shadow: 2px 2px 5px black;
 }
 
 #cabecalho > p{
-    align-items: center;
+    width: 400px;
+    margin: auto;
+    text-align: center;
     color: white;
     font: normal normal 1em arial;
+    padding-bottom: 20px;
 }
-
+/* ---------------------------------MENU--------------------------------- */
 nav{
-    text-align: left;
+    padding: 3px 10px;
 }
 
 nav > a{
     color: white;
     text-decoration: none;
-    font: normal normal 1em Arial;
+    font: normal bold 1em Arial;
     padding: 5px;
 }
 
-main{
-    background-color: lightgreen;
+nav > a:hover{
+    text-decoration: 4px underline;
 }
-
+/* ---------------------------------MAIN--------------------------------- */
+main{
+    background-color: rgb(130, 243, 187);
+    width: 100%;
+    margin: auto;
+}
+/* -------------------------------SECTION-------------------------------- */
 section{
     background-color: white;
     width: 80%;
-    margin: auto;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0 0 10px 10px;
+}
+/* -------------------------------ARTICLE-------------------------------- */
+article{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------------ARTICLE 01------------------------------ */
+#art01{
     text-align: justify;
+    padding: 15px;
+}
+
+#art01 > h1{
+    font: normal normal 2em 'iDroid';
+    color: darkgreen;
+    margin: 0;
+    
+}
+
+#art01 > h2{
+    color: darkgreen;
+    background-image: linear-gradient(to right, lightgreen, white);
+    font: normal normal 1.3em 'iDroid';
+    padding: 0 10px;
+}
+
+#art01 > p{
+    font: normal normal 1em sans-serif;
+    margin: 10px 0;
+    padding: 10px 10;
     text-indent: 20px;
 }
 
-section > h1{
-    font: normal normal 1em 'iDroid';
-    color: darkgreen;
+.android{
+    display: block;
+    margin: auto;
 }
-
-h2{
-    color: darkgreen;
-    background-image: linear-gradient(to right, lightgreen, white);
-    font: normal normal 1em 'iDroid';
-}
-
-img#android{
-    display: inline-block;
-    align-items: center;
-}
-
-#sec02{
-    background-color: rgba(0, 150, 0, 1);
+/* -------------------------------ARTICLE 02------------------------------- */
+#art02{
+    margin: auto;
+    background-color: rgb(0, 109, 0);
     text-align: center;
-    padding: 10px;
-    text-indent: 0;
+    padding: 20px;
 }
 
-main > #sec02 > iframe{
-    margin: auto;   
+#art02 > iframe{
+    width: 100%;
+    
 }
-
-#sec03 > article{
-    background-color: lightgreen;
+/* -------------------------------ARTICLE 03------------------------------- */
+#art03{
+    background-color: rgb(178, 253, 194);
+    width: 96%;
+    margin: 10px auto;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
 }
 
-#sec03 > article > h3{
-    background-color: darkgreen;
+#art03 > h3{
+    background-color: rgb(56, 168, 75);
     color: white;
     border-radius: 10px 10px 0 0;
-    padding: 10px 0px;
+    margin: 0;
+    padding: 10px;
 }
 
-#sec03 > article > p{
+#art03 > p{
+    clear: both;
     margin: 0px;
-    padding: 0px 10px 20px 20px;
+    padding: 10px 5px;
+    text-indent: 20px;
 }
 
+ul{
+    list-style: none;
+    margin-bottom: 100px;
+    padding: 0 10px;
+    
+}
+
+.esq{
+    width: 50%;
+    float: left;
+}
+/* -------------------------------ARTICLE 04------------------------------- */
+#art04{
+    width: 96%;
+    margin: 0 auto;
+    text-indent: 20px;
+}
+
+/* --------------------------------FOOTER-------------------------------- */
 footer{
+    clear: both;
     background-color: darkgreen;
 }
 
