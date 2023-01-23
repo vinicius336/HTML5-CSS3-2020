@@ -299,3 +299,6 @@
 
 ### Commit 83 - 23/01/2023 - 15:23
 * Alteração do nome da pasta do desafio 10 (d010 >> d010.01)
+
+### Commit 84 - 23/01/2023 - 16:45
+* Criação da pasta d010.02 do desafio 10 com os arquivos iniciais para refazer o desafio.
