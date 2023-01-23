@@ -302,3 +302,8 @@
 
 ### Commit 84 - 23/01/2023 - 16:45
 * Criação da pasta d010.02 do desafio 10 com os arquivos iniciais para refazer o desafio.
+
+### Commit 85 - 23/01/2023 - 19:38
+* Organização inicial do HTML do desafio 10
+* Criação do arquivo css
+* link do favicon
