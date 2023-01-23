@@ -296,3 +296,6 @@
 
 ### Commit 82 - 21/01/2023 - 17:35
 * Desafio site Android finalizado - **Vídeo não está completamente adaptado à tela. Há uma linha branca acima do footer que deveria ser um espaço da cor da lateral (main). No momento da correção adiciono os links do conteúdo.**
+
+### Commit 83 - 23/01/2023 - 15:23
+* Alteração do nome da pasta do desafio 10 (d010 >> d010.01)
