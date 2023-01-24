@@ -1,13 +1,18 @@
-/*---------CARACTERES ASSENTUADOS----------------------------*/
+/*---------CARACTERES ASSENTUADOS------*/
 @charset "UTF-8";
 
-/*---------NOMEAÇÃO DE FONTE BAIXADA-------------------------*/
+/*---------FONTE GoogleFonts-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*---------FONTE BAIXADA---------------*/
 @font-face {
-    font-family: 'iDroid';
-    src: url(../fontes/idroid.otf);
+    font-family: 'Android';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
 }
 
-/*---------PSEUDO-CLASSE PARA DENOMINAR VARIÁVEIS EM CSS-----*/
+/*---------PSEUDO-CLASSE PARA DENOMINAR
+--------VARIÁVEIS EM CSS---------------*/
 :root{
     --fundoHeader: rgba(30, 100, 30, .8);
     --fundoBody: rgba(0, 240, 100, .4);
@@ -17,6 +22,8 @@
     --cor4: rgba(114, 242, 2, .5);
     --cor5: rgba(209, 235, 12, .5);
     
+    --fonteDestaque: 'Bebas Neue', 'cursive';
+    --fonteAndroid: 'Android', 'cursive';
 }
 
 /*---------RESET---------------------------------------------*/
@@ -41,7 +48,7 @@ header > h1{
     padding: 10px;
     color: var(--branco);
     text-shadow: 0 0 4px var(--sombra);
-    font: normal normal 2em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: normal normal 2em var(--fonteDestaque);
 }
 
 header > p{
@@ -75,7 +82,7 @@ nav > a:hover{
 
 /*---------MAIN----------------------------------------------*/
 main{
-    width: 70%;
+    max-width: 800px;
     margin: auto;
     background-color: var(--branco);
     box-shadow: 0 0 6px var(--sombra);
@@ -83,12 +90,12 @@ main{
 
 main h1{
     padding: 10px 0 0 20px;
-    font: normal normal 1.6em 'iDroid';
+    font: normal normal 1.6em var(--fonteAndroid);
     color: var(--fundoHeader);
 }
 
 main h2{
-    font: normal normal 1em 'iDroid';
+    font: normal normal 1em var(--fonteAndroid);
     background-image: linear-gradient(to right, var(--fundoBody), var(--branco));
     margin: 0 20px 0 20px;
     padding: 0 10px;
@@ -104,20 +111,24 @@ main p{
 
 .imagem{
     width: 80%;
-    height: 20%;
+    display: block;
+    margin: auto;
+}
+
+.bugdroid{
     display: block;
     margin: auto;
 }
 
 #video{
-    width: 100%;
     background-color: var(--fundoHeader);
+    margin: 0px;
+    padding: 20px 0;
 }
 
 #video > iframe{
     display: block;
     max-width: 90%;
-    max-height: 100%;
     margin: auto;
 }
 
@@ -135,7 +146,8 @@ aside h3{
     color: var(--branco);
     padding: 10px;
     border-radius: 10px 10px 0 0;
-    font: normal bold 1em sans-serif;
+    font: normal normal 1em var(--fonteAndroid);
+    letter-spacing: 2px;
 }
 
 aside p{
@@ -144,20 +156,10 @@ aside p{
 }
 
 aside ul{
+    list-style-position: inside;
     list-style-type: '\1f5f8\00a0';
-    padding-left: 30px;
-}
-
-.esq{
-    display: list-item;
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-
-.dir{
-    float: right;
-    
+    padding-left: 10px;
+    columns: 2;
 }
 
 /*---------FOOTER--------------------------------------------*/

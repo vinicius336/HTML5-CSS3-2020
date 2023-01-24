@@ -320,3 +320,12 @@
 ### Commit 88 - 24/01/2023 - 16:05
 * Configuração inicial do CSS do aside com a lista (imcompleto)
 * Inclusão do vídeo e do CSS do vídeo
+
+### Commit 89 - 24/01/2023 - 18:02
+* Configuração CSS do aside com a lista completado
+* Adicionadas duas variáveis de fonte (fonte baixada e GoogleFont)
+* Alterada a largura da main de % para max-widtg (largura máxima)
+* Posição dos marcadores de lista para dentro (inside)
+* Marcador personalizado por emoji (feito no Commit anterior)
+* Lista dividida em colunas
+* Ajustando CSS do vídeo
