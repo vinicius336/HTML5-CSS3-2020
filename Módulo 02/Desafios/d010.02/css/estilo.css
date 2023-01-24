@@ -102,6 +102,13 @@ main > p{
     font: normal normal .9em sans-serif;
 }
 
+.imagem{
+    width: 80%;
+    height: 20%;
+    display: block;
+    margin: auto;
+}
+
 /*---------FOOTER--------------------------------------------*/
 footer{
     background-color: var(--fundoHeader);

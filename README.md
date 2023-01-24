@@ -313,3 +313,6 @@
 * CSS do Header pronto
 * CSS do Body pronto
 * CSS do Main em andamento (Falta incluir as imagens, e o CSS das imagens, vídeo e aside)
+
+### Commit 87 - 24/01/2023 - 15:00
+* Inclusão das imagens e CSS das imagens com class
