@@ -316,3 +316,7 @@
 
 ### Commit 87 - 24/01/2023 - 15:00
 * Inclusão das imagens e CSS das imagens com class
+
+### Commit 88 - 24/01/2023 - 16:05
+* Configuração inicial do CSS do aside com a lista (imcompleto)
+* Inclusão do vídeo e do CSS do vídeo

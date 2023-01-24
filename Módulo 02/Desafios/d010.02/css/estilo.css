@@ -81,13 +81,13 @@ main{
     box-shadow: 0 0 6px var(--sombra);
 }
 
-main > h1{
+main h1{
     padding: 10px 0 0 20px;
     font: normal normal 1.6em 'iDroid';
     color: var(--fundoHeader);
 }
 
-main > h2{
+main h2{
     font: normal normal 1em 'iDroid';
     background-image: linear-gradient(to right, var(--fundoBody), var(--branco));
     margin: 0 20px 0 20px;
@@ -95,7 +95,7 @@ main > h2{
     color: var(--fundoHeader);
 }
 
-main > p{
+main p{
     padding: 20px;
     text-indent: 30px;
     text-align: justify;
@@ -109,6 +109,57 @@ main > p{
     margin: auto;
 }
 
+#video{
+    width: 100%;
+    background-color: var(--fundoHeader);
+}
+
+#video > iframe{
+    display: block;
+    max-width: 90%;
+    max-height: 100%;
+    margin: auto;
+}
+
+/*---------ASIDE---------------------------------------------*/
+aside{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    background-color: var(--fundoBody);
+    border-radius: 10px;
+}
+
+aside h3{
+    background-color: var(--fundoHeader);
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font: normal bold 1em sans-serif;
+}
+
+aside p{
+    clear: both;
+    padding: 10px;
+}
+
+aside ul{
+    list-style-type: '\1f5f8\00a0';
+    padding-left: 30px;
+}
+
+.esq{
+    display: list-item;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.dir{
+    float: right;
+    
+}
+
 /*---------FOOTER--------------------------------------------*/
 footer{
     background-color: var(--fundoHeader);
@@ -118,4 +169,17 @@ footer > p{
     text-align: center;
     padding: 8px;
     color: var(--branco);
+    font: normal normal .7em sans-serif;
+}
+
+.linkFooter{
+    color: var(--branco);
+    text-decoration: none;
+    font: normal bolder 1.1em sans-serif;
+    vertical-align: bottom;
+}
+
+.linkFooter:hover{
+    text-decoration: 2px underline;
+    align-items: center;
 }
