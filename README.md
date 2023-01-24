@@ -307,3 +307,9 @@
 * Organização inicial do HTML do desafio 10
 * Criação do arquivo css
 * link do favicon
+
+### Commit 86 - 23/01/2023 - 23:40
+* Desafio 10.2 em andamento
+* CSS do Header pronto
+* CSS do Body pronto
+* CSS do Main em andamento (Falta incluir as imagens, e o CSS das imagens, vídeo e aside)

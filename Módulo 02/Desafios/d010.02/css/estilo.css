@@ -1,1 +1,114 @@
+/*---------CARACTERES ASSENTUADOS----------------------------*/
 @charset "UTF-8";
+
+/*---------NOMEAÇÃO DE FONTE BAIXADA-------------------------*/
+@font-face {
+    font-family: 'iDroid';
+    src: url(../fontes/idroid.otf);
+}
+
+/*---------PSEUDO-CLASSE PARA DENOMINAR VARIÁVEIS EM CSS-----*/
+:root{
+    --fundoHeader: rgba(30, 100, 30, .8);
+    --fundoBody: rgba(0, 240, 100, .4);
+    --branco: rgb(255, 255, 255);
+    --sombra: rgb(0, 0, 0);
+    --cor2: rgba(2, 242, 74, .8);
+    --cor4: rgba(114, 242, 2, .5);
+    --cor5: rgba(209, 235, 12, .5);
+    
+}
+
+/*---------RESET---------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------BODY----------------------------------------------*/
+body{
+    background-color: var(--fundoBody);
+}
+
+/*---------HEADER--------------------------------------------*/
+header{
+    background-image: linear-gradient(to top, var(--fundoHeader), 65%, var(--fundoBody));
+    box-shadow: 0 0 2px var(--sombra);
+}
+
+header > h1{
+    text-align: center;
+    padding: 10px;
+    color: var(--branco);
+    text-shadow: 0 0 4px var(--sombra);
+    font: normal normal 2em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > p{
+    text-align: center;
+    padding: 10px;
+    max-width: 380px;
+    margin: auto;
+    color: var(--branco);
+    text-shadow: 0 0 4px var(--sombra);
+    font: normal normal 1em 'Arial';
+}
+
+/*---------NAV--------------------------------------------*/
+nav{
+    padding: 6px;
+}
+
+nav > a{
+    color: var(--branco);
+    text-decoration: none;
+    font: normal bold .8em Arial;
+    padding: 6px;
+    transition: .6s;
+}
+
+nav > a:hover{
+    background-color: var(--branco);
+    color: var(--fundoHeader);
+    border-radius: 5px;
+}
+
+/*---------MAIN----------------------------------------------*/
+main{
+    width: 70%;
+    margin: auto;
+    background-color: var(--branco);
+    box-shadow: 0 0 6px var(--sombra);
+}
+
+main > h1{
+    padding: 10px 0 0 20px;
+    font: normal normal 1.6em 'iDroid';
+    color: var(--fundoHeader);
+}
+
+main > h2{
+    font: normal normal 1em 'iDroid';
+    background-image: linear-gradient(to right, var(--fundoBody), var(--branco));
+    margin: 0 20px 0 20px;
+    padding: 0 10px;
+    color: var(--fundoHeader);
+}
+
+main > p{
+    padding: 20px;
+    text-indent: 30px;
+    text-align: justify;
+    font: normal normal .9em sans-serif;
+}
+
+/*---------FOOTER--------------------------------------------*/
+footer{
+    background-color: var(--fundoHeader);
+}
+
+footer > p{
+    text-align: center;
+    padding: 8px;
+    color: var(--branco);
+}
