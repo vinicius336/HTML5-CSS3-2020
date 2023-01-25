@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ;
+    src: url();
+    format();
+}
+
+:root{
+    --preto: rgb(0, 0, 0);
+    --branco: rgb(255, 255, 255);
+/*
+    --fonte1: ;
+    --fonte2: ;
+*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--preto);
+    color: var(--branco);
+    font: normal normal 1em Arial;
+    text-align: center;
+    padding: 30px;
+}
+
+main{
+    max-width: 800px;
+    box-shadow: 0 0 10px var(--preto);
+    margin: 20px auto;
+}
+
+img{
+    position: fixed;
+    max-width: 800px;
+}
+
+.estrofe{
+    display: block;
+    position: relative;
+    background-color: var(--branco);
+    width: 300px;
+    margin: 50px;
+    padding: 10px;
+    top: 20px;
+    box-shadow: 0px 0px 10px var(--preto);
+}
+
+p{
+    line-height: 20px;
+}

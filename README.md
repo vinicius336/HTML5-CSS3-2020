@@ -330,5 +330,12 @@
 * Lista dividida em colunas
 * Ajustando CSS do vídeo
 
-# Commit 90 - 24/01/2023 - 22:28
+### Commit 90 - 24/01/2023 - 22:28
 * Desafio 11 feito
+
+### Commit 91 - 24/01/2023 - 23:26
+* Desafio 12 iniciado 
+1. Header feito
+2. Main com sombra
+3. Estrofes separadas por div
+4. Imagem fixa ao rolar página
