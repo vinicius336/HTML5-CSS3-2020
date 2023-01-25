@@ -1,55 +1,110 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: ;
-    src: url();
-    format();
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+/*-----*ROOT*-----*/
 :root{
     --preto: rgb(0, 0, 0);
+    --sombra: rgba(0, 0, 0, .5);
     --branco: rgb(255, 255, 255);
-/*
-    --fonte1: ;
-    --fonte2: ;
-*/
+
+    --fonte1: 'Passion One';
+    --fonte2: 'Sriracha';
 }
 
+/*-----*RESET*-----*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*-----*BODY*-----*/
+body{
+    width: 100%;
+}
+
+/*-----*HEADER*-----*/
 header{
     background-color: var(--preto);
     color: var(--branco);
-    font: normal normal 1em Arial;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 
+header h1{
+    font: normal normal 3em 'Passion One';
+}
+
+header p{
+    display: inline-block;
+    font: normal normal 1em 'Arial';
+}
+header h6{
+    display: inline-block;
+    font: normal bold 1em 'Arial';
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+    font: normal normal 1em "Arial";
+    padding-top: 10px;
+    color: var(--branco);
+}
+
+header a:hover{
+    text-decoration: 2px underline;
+}
+
+header a:visited{
+    font: normal bolder 1em "Arial";
+}
+
+header a:active{
+    color: var(--branco);
+}
+
+/*-----*MAIN*-----*/
 main{
-    max-width: 800px;
-    box-shadow: 0 0 10px var(--preto);
-    margin: 20px auto;
+    background-color: var(--branco);
+    border: 2px solid var(--preto);
+    width: 600px;
+    margin: auto;
 }
 
-img{
-    position: fixed;
-    max-width: 800px;
+div > .estrofe{
+    position: relative;
+    border: 1px solid var(--preto);
+    margin: 30px 10px;
+    color: var(--branco);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .estrofe{
-    display: block;
     position: relative;
-    background-color: var(--branco);
-    width: 300px;
-    margin: 50px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid var(--preto);
+    line-height: 10px;
+    font: normal normal 1em 'Sriracha';
     padding: 10px;
-    top: 20px;
-    box-shadow: 0px 0px 10px var(--preto);
+    margin: 10px ;
 }
 
-p{
-    line-height: 20px;
+#imagem{
+    position: absolute;
+}
+
+#imagem > #joaninha, #imagem > #folhas{
+    position: relative;
+    width: 90%;
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    padding: 6px;
 }
