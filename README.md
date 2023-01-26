@@ -342,3 +342,9 @@
 
 ### Commit 92 - 25/01/2023 - 13:18
 * Desafio 12 finalizado com alguns problemas
+
+### Commit 93 - 26/01/2023 - 14:48
+* Criando uma branch pelo VSCode
+   * No menu lateral em **Controle de Código Fonte**
+   * Abrir o menu superior (reticências), opção **Branch >> Criar Ramificação**, e digitar o nome da ramificação.
+   * Commitar
