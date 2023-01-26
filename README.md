@@ -339,6 +339,7 @@
 2. Main com sombra
 3. Estrofes separadas por div
 4. Imagem fixa ao rolar página
+<<<<<<< HEAD
 
 ### Commit 92 - 25/01/2023 - 13:18
 * Desafio 12 finalizado com alguns problemas
@@ -373,3 +374,5 @@
    * Abrir menu superior (reticências), opção **Branch >> Mesclar Ramificação...**
    * Selecionar a Raminifação a ser mesclada (merge).
    * Finalizar o Commit com a mensagem
+=======
+>>>>>>> parent of 2ec6158 (Desafio 12 finalizado)
