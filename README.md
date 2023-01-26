@@ -342,3 +342,21 @@
 
 ### Commit 92 - 25/01/2023 - 13:18
 * Desafio 12 finalizado com alguns problemas
+
+### Commit 93 - 26/01/2023 - 14:49
+* Criando uma branch pelo VSCode
+   * No menu lateral em **Controle de Código Fonte**
+   * Abrir o menu superior (reticências), opção **Branch >> Criar Ramificação**, e digitar o nome da ramificação.
+   * Commitar
+
+### Commit 94 - 26/01/2023 - 15:25
+* Merge do Branch criado na Branch Main
+   * No menu lateral em **Controle de Código Fonte**
+   * Abrir menu superior (reticências), opção **Branch >> Mesclar Ramificação...**
+   * Selecionar a Raminifação a ser mesclada (merge).
+   * Finalizar o Commit com a mensagem
+### Commit 95 - 26/01/2023 ~ 15:45
+* Merge pelo site do GitHub
+
+### Commit 96 - 26/01/2023 - 16:20
+* Commit com atualização do horário do merge anterior
