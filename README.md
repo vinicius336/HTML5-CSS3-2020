@@ -339,7 +339,6 @@
 2. Main com sombra
 3. Estrofes separadas por div
 4. Imagem fixa ao rolar página
-<<<<<<< HEAD
 
 ### Commit 92 - 25/01/2023 - 13:18
 * Desafio 12 finalizado com alguns problemas
@@ -356,23 +355,19 @@
    * Abrir menu superior (reticências), opção **Branch >> Mesclar Ramificação...**
    * Selecionar a Raminifação a ser mesclada (merge).
    * Finalizar o Commit com a mensagem
-### Commit 95 - 26/01/2023 ~ 15:45
+
+### Commit 95 - 26/01/2023 ~ 15:34
 * Merge pelo site do GitHub
 
 ### Commit 96 - 26/01/2023 - 16:20
 * Commit com atualização do horário do merge anterior
 
-### Commit 93 - 26/01/2023 - 14:48
-* Criando uma branch pelo VSCode
-   * No menu lateral em **Controle de Código Fonte**
-   * Abrir o menu superior (reticências), opção **Branch >> Criar Ramificação**, e digitar o nome da ramificação.
-   * Commitar
+### Commit 97 - 26/01/2023 - 16:39
+* Commit message "sss" inclusão de linhas repetidas no README.md
 
-### Commit 94 - 26/01/2023 - 15:25
-* Merge do Branch criado na Branch Main
-   * No menu lateral em **Controle de Código Fonte**
-   * Abrir menu superior (reticências), opção **Branch >> Mesclar Ramificação...**
-   * Selecionar a Raminifação a ser mesclada (merge).
-   * Finalizar o Commit com a mensagem
-=======
->>>>>>> parent of 2ec6158 (Desafio 12 finalizado)
+### Commit 98 - 26/01/2023 - 16:50
+* Commit message "Voltando ao commit do dia 25/01/2023" usando o git revert
+* Exclusão da Brach criada para teste em aula
+
+### Commit 99 - 26/01/2023 - 17:20
+* Normalização dos commits e volta de 
