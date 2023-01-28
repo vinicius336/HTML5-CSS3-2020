@@ -375,3 +375,9 @@
 ### Commit 100 - 26/01/2023 - 17:28
 * Alterando horário do commit anterior
 * Renumerando os commits
+
+### Commit 101 - 28/01/2023 -
+* Criada pasta do Módulo 03
+* Criada pasta do exercídio 022
+* Copiadas as imagens do exercício 022
+* Criada estrutura básica do exercício 022
