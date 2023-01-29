@@ -403,3 +403,6 @@
 
 ### Commit 106 - 29/01/2023 - 14:13
 * Desafio 12 melhorado - Falta rolagem em área restrita sem mostrar scrool lateral
+
+### Commit 107 - 29/01/2023 - 14:38
+* Testes de Conhecimento 17, 18 e 19 feitos
