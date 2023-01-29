@@ -406,3 +406,6 @@
 
 ### Commit 107 - 29/01/2023 - 14:38
 * Testes de Conhecimento 17, 18 e 19 feitos
+
+### Commit 108 - 29/01/2023 - 17:27
+* Adicionado my octocat com background properties novo

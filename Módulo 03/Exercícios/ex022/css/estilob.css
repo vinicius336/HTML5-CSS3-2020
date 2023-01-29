@@ -8,6 +8,10 @@
 body{
     max-width: 930px;
     margin: auto;
+    background-image: url(../imagens/Octocats/My\ octocat.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 
