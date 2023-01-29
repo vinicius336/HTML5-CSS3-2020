@@ -14,11 +14,14 @@ p{
 
 ul{
     list-style-type: none;
+    margin: 0px;
+    padding: 10px;
 }
 
 li{
     display: inline-block;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -39,8 +42,14 @@ a:hover{
 
 h1{
     background-color: var(--branco);
+    background-image: url(../imagens/Octocats/My\ octocat.png);
+    background-size: 70px;
+    background-position: right;
+    background-repeat: no-repeat;
+    max-width: 400px;
     border-radius: 10px;
     color: var(--preto);
-    text-align: center;
-    margin: 10px;
+    text-align: left;
+    margin: 10px auto;
+    padding: 20px;
 }

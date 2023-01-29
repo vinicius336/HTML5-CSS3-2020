@@ -7,12 +7,8 @@
 
 body{
     max-width: 930px;
-    background-image: url(../imagens/Octocats/My\ octocat.png);
-    background-size: 80px;
-    background-repeat: repeat-x;
-    background-position-x: 0px;
-    background-position-y: 70px;
     margin: auto;
+    
 }
 
 #quadros{
@@ -54,7 +50,7 @@ body{
     margin: 20px auto;
 }
 
-.descricaox{
+#descricaox{
     width: 250px;
     margin: auto;
 }
@@ -67,6 +63,6 @@ body{
     margin: auto;
 }
 
-.descricaoy{
+#descricaoy{
     width: 250px;
 }

@@ -386,3 +386,10 @@
 * Horário do commit anterior
 * Exercício 022b feito
 * Propriedades do background-image
+
+### Commit 103 - 29/01/2023 - 
+* Renomeação do desafio 12 no módulo 2
+* Aumento tamanho e centralização do background no exercício 22
+* Criação da pasta do desafio 12 no módulo 3 (refazer com novos conhecimentos)
+* Alteração do caminho do menu.css
+* Ajustes no exercício 22
