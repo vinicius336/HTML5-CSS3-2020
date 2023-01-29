@@ -8,6 +8,7 @@
 :root{
     --preto: rgb(0, 0, 0);
     --branco: rgb(255, 255, 255);
+    --pretotransparente: rgba(0, 0, 0, .4);
 
     --passionOne: 'Passion';
     --sriracha: 'Sriracha';
@@ -72,6 +73,38 @@ main{
     max-width: 800px;
     border: 1px solid var(--preto);
     margin: 4px auto;
+}
+
+.estrofe{
+    width: 300px;
+    height: 300px;
+    margin: 60px 20px;
+    padding: 10px;
+    font: normal bold 1em 'Sriracha';
+    color: var(--preto);
+}
+
+.estrofe2e5{
+    background-color: var(--pretotransparente);
+    width: 300px;
+    margin: 60px 20px;
+    padding: 10px;
+    color: var(--branco);
+    font: normal normal 1em 'Sriracha';
+}
+
+#joaninha{
+    background-image: url(../imagens/background001.jpg);
+    min-height: 400px;
+    max-height: 410px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#folhas{
+    background-image: url(../imagens/background002.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 footer{

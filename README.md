@@ -400,3 +400,6 @@
 
 ### Commit 105 - 29/01/2023 - 13:23
 * Organizado o footer
+
+### Commit 106 - 29/01/2023 - 14:13
+* Desafio 12 melhorado - Falta rolagem em área restrita sem mostrar scrool lateral
