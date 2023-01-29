@@ -409,3 +409,6 @@
 
 ### Commit 108 - 29/01/2023 - 17:27
 * Adicionado my octocat com background properties novo
+
+### Commit 109 - 29/01/2023 - 17:47
+* Aducionado background-attachment ao desafio 12

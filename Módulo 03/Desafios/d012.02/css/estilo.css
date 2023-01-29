@@ -87,24 +87,24 @@ main{
 .estrofe2e5{
     background-color: var(--pretotransparente);
     width: 300px;
-    margin: 60px 20px;
-    padding: 10px;
+    margin: 80px 20px;
+    padding: 20px;
+    border-radius: 15px;
     color: var(--branco);
     font: normal normal 1em 'Sriracha';
 }
 
 #joaninha{
     background-image: url(../imagens/background001.jpg);
-    min-height: 400px;
-    max-height: 410px;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
 }
 
 #folhas{
     background-image: url(../imagens/background002.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
