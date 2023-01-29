@@ -397,3 +397,6 @@
 ### Commit 104 - 29/01/2023 - 12:18
 * Horário do commit anterior
 * Desafio 12 iniciado
+
+### Commit 105 - 29/01/2023 - 13:23
+* Organizado o footer

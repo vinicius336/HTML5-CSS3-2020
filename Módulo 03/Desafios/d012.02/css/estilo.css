@@ -52,10 +52,48 @@ header > p > span{
 }
 
 nav{
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
 
+nav > a{
+    text-decoration: none;
+    color: var(--preto);
+    font: normal normal 1em Arial;
+}
+
+nav > a:hover{
+    text-decoration: 2px underline;
+    font: normal normal 1em Arial;
 }
 
 main{
     max-width: 800px;
-    margin: auto;
+    border: 1px solid var(--preto);
+    margin: 4px auto;
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    font: normal lighter 1em Arial;
+    text-align: center;
+    margin: 0px;
+    padding: 6px;
+}
+
+footer > p{
+    font: normal lighter 1em Arial;
+    color: var(--branco);
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: var(--branco);
+    font: normal bold 1em Arial;
+}
+
+footer > p > a:hover{
+    text-decoration: 2px underline;
 }
