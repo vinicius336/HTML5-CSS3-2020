@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root{
+    --preto: rgb(0, 0, 0);
+    --branco: rgb(255, 255, 255);
+}
+
+body{
+    max-width: 930px;
+    background-image: url(../imagens/Octocats/My\ octocat.png);
+    background-size: 80px;
+    background-repeat: repeat-x;
+    background-position-x: 0px;
+    background-position-y: 70px;
+    margin: auto;
+}
+
+#quadros{
+    text-align: center;
+}
+
+.quadrado{
+    display: inline-block;
+    width: 256px;
+    height: 240px;
+    border: 1px solid var(--preto);
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+
+.descricao{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.retangulo{
+    width: 200px;
+}
+
+#q1{
+    background-image: url(https://vectorportal.com/storage/octocat_by_rstovall_11895.jpg);
+    background-size: 256px;
+}
+
+#q2{
+    background-image: url(../imagens/Octocats/octocat256.png);
+    background-repeat: no-repeat;
+}
+
+#q3{
+    background-image: url(../imagens/Octocats/octocat32.png);
+    background-repeat: repeat-x;
+    width: 480px;
+    margin: 20px auto;
+}
+
+.descricaox{
+    width: 250px;
+    margin: auto;
+}
+
+#q4{
+    background-image: url(../imagens/Octocats/octocat32.png);
+    background-repeat: repeat-y;
+    width: 480px;
+    height: 300px;
+    margin: auto;
+}
+
+.descricaoy{
+    width: 250px;
+}

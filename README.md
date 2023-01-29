@@ -376,8 +376,13 @@
 * Alterando horário do commit anterior
 * Renumerando os commits
 
-### Commit 101 - 28/01/2023 -
+### Commit 101 - 28/01/2023 - 12:00
 * Criada pasta do Módulo 03
 * Criada pasta do exercídio 022
 * Copiadas as imagens do exercício 022
 * Criada estrutura básica do exercício 022
+
+### Commit 102 - 28/01/2023 - 23:48
+* Horário do commit anterior
+* Exercício 022b feito
+* Propriedades do background-image
