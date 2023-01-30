@@ -412,3 +412,6 @@
 
 ### Commit 109 - 29/01/2023 - 17:47
 * Aducionado background-attachment ao desafio 12
+
+### Commit 110 - 29/01/2023 - 22:49
+* Exercício 22c feito 

@@ -5,6 +5,11 @@
     --branco: rgb(255, 255, 255);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 p{
     color: var(--branco);
     background-color: var(--preto);
