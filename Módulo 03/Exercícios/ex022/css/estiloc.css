@@ -6,16 +6,25 @@
 }
 
 body{
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
-.bloco{
+#bloco{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.blocos{
+    display: inline-block;
     background-image: url(../imagens/wallpaper003.jpg);
-    height: 200px;
-    border: 1px solid var(--preto);
+    width: 32%;
+    height: 284px;
+    border: 0px solid var(--preto);
     border-radius: 20px;
-    margin: 10px;
+    margin: auto;
 }
 
 #q1{
@@ -23,13 +32,33 @@ body{
 }
 
 #q2{
-    background-position: left center;
+    background-position: center top;
 }
 
 #q3{
-    background-position: right bottom;
+    background-position: right top;
 }
 
 #q4{
+    background-position: left center;
+}
+
+#q5{
     background-position: center center;
+}
+
+#q6{
+    background-position: right center;
+}
+
+#q7{
+    background-position: left bottom;
+}
+
+#q8{
+    background-position: center bottom;
+}
+
+#q9{
+    background-position: right bottom;
 }
