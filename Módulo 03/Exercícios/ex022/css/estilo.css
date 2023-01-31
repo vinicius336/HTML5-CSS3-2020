@@ -6,7 +6,7 @@
     --vermelho: rgb(255, 0, 0);
     --amarelo: rgb(255, 255, 0);
     --azulceu: rgb(0, 230, 255);
-    --cinzaclaro: rgb(230, 230, 230);
+    --cinzaClaro: rgb(230, 230, 230);
 }
 
 body{
@@ -30,7 +30,7 @@ span{
     height: 300px;
     border-radius: 20px;
     border: 1px solid var(--preto);
-    background-color: var(--cinzaclaro);
+    background-color: var(--cinzaClaro);
     margin: 6px;
 }
 

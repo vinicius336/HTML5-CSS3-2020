@@ -426,3 +426,8 @@
 ### Commit 113 - 31/01/2023 - 11:05
 * Criação/modificação do nav
 * Estilo do nav e body nas páginas
+
+### Commit 114 - 31/01/2023 - 11:41
+* Adequação do nome das variáveis de cores
+* Ajustes no menu
+* Exercício 022d feito - background-size

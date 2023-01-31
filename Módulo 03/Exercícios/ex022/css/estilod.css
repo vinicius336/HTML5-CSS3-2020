@@ -3,17 +3,29 @@
 :root{
     --preto: rgb(0, 0, 0);
     --branco: rgb(255, 255, 255);
+    --azulEscuro: rgb(0, 0, 140);
+    
 }
 
-
-
 body{
+    width: 100%;
+    height: 100vh;
     background-color: var(--preto);
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    
 }
 
 main{
     background-color: var(--branco);
-    margin: auto;
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid var(--azulEscuro);
+    border-radius: 16px;
 }
 
 p{

@@ -3,7 +3,7 @@
 :root{
     --preto: rgb(0, 0, 0);
     --branco: rgb(255, 255, 255);
-    --pretotransparente: rgba(0, 0, 0, .4);
+    --pretoTransparente: rgba(0, 0, 0, .4);
 }
 
 body{
@@ -30,7 +30,7 @@ body{
 }
 
 p{
-    background-color: var(--pretotransparente);
+    background-color: var(--pretoTransparente);
     color: var(--branco);
 }
 
