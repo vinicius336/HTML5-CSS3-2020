@@ -422,3 +422,7 @@
 ### Commit 112 - 31/01/2023 - 10:40
 * Pequenas modificações
 * Criação do exercício 022d
+
+### Commit 113 - 31/01/2023 - 11:05
+* Criação/modificação do nav
+* Estilo do nav e body nas páginas

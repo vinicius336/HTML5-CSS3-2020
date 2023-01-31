@@ -3,10 +3,11 @@
 :root{
     --preto: rgb(0, 0, 0);
     --branco: rgb(255, 255, 255);
+    --pretotransparente: rgba(0, 0, 0, .4);
 }
 
 body{
-    max-width: 1000px;
+    width: 100%;
     margin: auto;
     background-image: url(../imagens/Octocats/My\ octocat.png);
     background-size: 200px;
@@ -26,6 +27,11 @@ body{
     border: 1px solid var(--preto);
     border-radius: 20px;
     margin: 10px 20px;
+}
+
+p{
+    background-color: var(--pretotransparente);
+    color: var(--branco);
 }
 
 .descricao{
