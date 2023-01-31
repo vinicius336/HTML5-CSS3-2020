@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root{
+    --preto: rgb(0, 0, 0);
+    --pretoTransparente: rgba(0, 0, 0, .6);
+    --branco: rgb(255, 255, 255);
+    --brancoTransparente: rgba(255, 255, 255, .8);
+    --amarelo: rgb(250, 250, 0);
+}
+
+body{
+    margin: auto;
+    background-color: var(--preto);
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* COLOR :: IMAGE :: POSITION :: REPEAT :: [SIZE] :: ATTACHMENT */
+    background: var(--preto) url(../imagens/wallpaper002.jpg) center center no-repeat /*cover*/ fixed;
+    background-size: cover;
+}
+
+main{
+    max-width: 700px;
+    margin: 10px auto;
+    border: 1px solid var(--branco);
+    border-radius: 10px;
+}
+
+main > h1{
+    text-align: center;
+    width: 70%;
+    background-color: var(--brancoTransparente);
+    font: italic normal 2em Arial;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 1px solid var(--preto);
+}
+
+p{
+    background-color: var(--pretoTransparente);
+    color: var(--brancoTransparente);
+    text-indent: 30px;
+    text-align: justify;
+    font: normal normal 1em Times;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--amarelo);
+    border-radius: 20px;
+}

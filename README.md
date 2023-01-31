@@ -431,3 +431,8 @@
 * Adequação do nome das variáveis de cores
 * Ajustes no menu
 * Exercício 022d feito - background-size
+
+### Commit 115 - 31/01/2023 - 15:57
+* Criação do exercício 022e
+* Adequação nos estilos das páginas
+* Exercício 022e feito

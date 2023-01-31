@@ -21,7 +21,7 @@ body{
     display: inline-block;
     background-image: url(../imagens/wallpaper003.jpg);
     width: 32%;
-    height: 284px;
+    height: 27vh;
     border: 0px solid var(--preto);
     border-radius: 20px;
     margin: auto;

@@ -10,9 +10,8 @@
 }
 
 body{
+    background-color: var(--preto);
     background-image: url(../imagens/wallpaper001.jpg);
-    width: 100%;
-    margin: auto;
 }
 
 span{

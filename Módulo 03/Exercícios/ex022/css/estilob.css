@@ -7,8 +7,6 @@
 }
 
 body{
-    width: 100%;
-    margin: auto;
     background-image: url(../imagens/Octocats/My\ octocat.png);
     background-size: 200px;
     background-repeat: no-repeat;
