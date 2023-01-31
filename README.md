@@ -418,3 +418,7 @@
 
 ### Commit 111 - 30/01/2023 - 14:44
 * Adicionado conteúdo de imagem e CSS para o exercício 22
+
+### Commit 112 - 31/01/2023 - 10:40
+* Pequenas modificações
+* Criação do exercício 022d

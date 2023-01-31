@@ -11,9 +11,8 @@
 
 body{
     background-image: url(../imagens/wallpaper001.jpg);
-    max-width: 962px;
+    max-width: 90%;
     margin: auto;
-    
 }
 
 span{
@@ -37,7 +36,6 @@ span{
 
 #quadros{
     text-align: center;
-    margin: 6px;
 }
 
 #q1{

@@ -32,7 +32,7 @@ li{
 a{
     background-color: var(--branco);
     border: 2px solid var(--preto);
-    font: italic bold 1.5em Arial;
+    font: italic bold 1em Arial;
     border-radius: 10px;
     color: var(--preto);
     transition: 1s;
