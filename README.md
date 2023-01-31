@@ -436,3 +436,6 @@
 * Criação do exercício 022e
 * Adequação nos estilos das páginas
 * Exercício 022e feito
+
+### Commit 116 - 31/01/2023 - 16:14
+* Criação do exercício 022f
