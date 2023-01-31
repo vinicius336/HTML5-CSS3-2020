@@ -439,3 +439,6 @@
 
 ### Commit 116 - 31/01/2023 - 16:14
 * Criação do exercício 022f
+
+### Commit 117 - 31/01/2023 - 18:51
+* Exercício 022f feito - posicionamento vertical
