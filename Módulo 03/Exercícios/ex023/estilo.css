@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+:root{
+    --preto: rgb(0, 0, 0);
+    --vermelho: rgb(255, 0, 0);
+    --cinza: rgb(200, 200, 200);
+    --amarelo: rgb(255, 255, 0);
+}
+
+body{
+    font: normal normal 1em Arial;
+    
+    margin: 10px;
+}
+
+table{
+    border: 3px solid var(--preto);
+    margin: 50px auto;
+    width: 500px;
+    height: 50vh;
+    position: relative;
+    border-collapse: collapse;
+}
+
+.impar{
+    background-color: var(--cinza);
+}
+
+td{
+    border: 1px solid var(--preto);
+    text-align: center;
+    padding: 6px 0;
+}
+
+.smile{
+    background-color: var(--amarelo);
+    color: var(--amarelo);
+}
+
+.olho{
+    background-color: var(--preto);
+}
+
+.boca{
+    background-color: var(--vermelho);
+    color: var(--vermelho);
+}
