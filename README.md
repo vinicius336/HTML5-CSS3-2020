@@ -446,3 +446,7 @@
 ### Commit 118 - 03/02/2023 - 00:07
 * Criação do exercício 023 - Tabela
 * Exercício 023 Feito - Tabela - Com algumas adaptações
+
+### Commit 119 - 04/02/2023 - 16:23
+* Ajustes no ex023 e css do ex023
+* Exercício 023b feito com adaptações

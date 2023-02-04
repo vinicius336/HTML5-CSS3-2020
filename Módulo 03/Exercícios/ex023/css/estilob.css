@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root{
+    --preto: rgb(0, 0, 0);
+}
+
+table{
+    border: 2px solid var(--preto);
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+}
+
+tr{
+    
+}
+
+td{
+    border: 1px solid var(--preto);
+    padding: 8px;
+}
+
+#bai{
+    vertical-align: bottom;
+}
+
+#mei{
+    vertical-align: middle;
+}
+
+#cim{
+    vertical-align: super;
+}
+
+.esq{
+    text-align: left;
+}
+
+.dir{
+    text-align: right;
+}
+
+.cen{
+    text-align: center;
+}
