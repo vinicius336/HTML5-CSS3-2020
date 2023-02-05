@@ -453,3 +453,6 @@
 
 ### Commit 120 - 05/02/2023 - 00:15
 * Estrutura básica do exercício 023c - Trabalhando com tabelas grandes
+
+### Commit 121 - 05/02/2023 - 12:49
+* Exercício 023c feito com adaptações
