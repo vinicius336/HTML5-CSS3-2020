@@ -450,3 +450,6 @@
 ### Commit 119 - 04/02/2023 - 16:23
 * Ajustes no ex023 e css do ex023
 * Exercício 023b feito com adaptações
+
+### Commit 120 - 05/02/2023 - 00:15
+* Estrutura básica do exercício 023c - Trabalhando com tabelas grandes
